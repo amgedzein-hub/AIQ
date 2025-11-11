@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import axios from 'axios';
 
@@ -39,11 +39,7 @@ export default function TestInterface({
   });
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
 
-  useEffect(() => {
-    fetchNextQuestion();
-  }, []);
-
-  const fetchNextQuestion = async () => {
+  const fetchNextQuestion = useCallback(async () => {
     try {
       setState((prev) => ({ ...prev, isLoading: true, error: null }));
       const response = await axios.post(`${API_URL}/questions/next`, {
@@ -63,7 +59,11 @@ export default function TestInterface({
         isLoading: false,
       }));
     }
-  };
+  }, [sessionId, state.responses]);
+
+  useEffect(() => {
+    fetchNextQuestion();
+  }, [fetchNextQuestion]);
 
   const handleSubmitAnswer = async () => {
     if (!selectedAnswer || !state.currentQuestion) return;
