@@ -45,3 +45,11 @@ ehthumbs.db
 # Turbo
 .turbo/
 dist/
+
+# Logs and temp files
+*.log
+combined.log
+
+# Claude settings
+.claude/
+.mcp.json
