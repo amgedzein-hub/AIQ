@@ -1,4 +1,4 @@
-import Anthropic from '@anthropic-ai/sdk';
+import { Anthropic } from '@anthropic-ai/sdk';
 import { Question, Domain } from '@iq-test/question-bank';
 
 const anthropic = new Anthropic({
@@ -47,7 +47,7 @@ Use formal Arabic (Fusha) and make it culturally appropriate for Arabic speakers
   });
 
   const textContent = message.content.find((block) => block.type === 'text');
-  return textContent && textContent.type === 'text' ? textContent.text : '';
+  return textContent && 'text' in textContent ? textContent.text : '';
 }
 
 /**
@@ -128,5 +128,5 @@ Keep feedback concise and supportive.
   });
 
   const textContent = message.content.find((block) => block.type === 'text');
-  return textContent && textContent.type === 'text' ? textContent.text : '';
+  return textContent && 'text' in textContent ? textContent.text : '';
 }
