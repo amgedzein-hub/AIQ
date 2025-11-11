@@ -32,9 +32,10 @@ const DOMAINS = [
 export default async function HomePage({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  setRequestLocale(params.locale);
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations();
 
   return (

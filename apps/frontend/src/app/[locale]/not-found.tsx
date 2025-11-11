@@ -4,9 +4,10 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 export default async function NotFoundPage({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  setRequestLocale(params.locale);
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations();
 
   return (
