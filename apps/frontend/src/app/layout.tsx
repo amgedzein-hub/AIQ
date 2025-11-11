@@ -16,11 +16,12 @@ export function generateStaticParams() {
 
 export default async function RootLayout({
   children,
-  params,
+  params: paramsPromise,
 }: {
   children: ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const params = await paramsPromise;
   const { locale } = params;
   const messages = await getMessages({ locale });
 
