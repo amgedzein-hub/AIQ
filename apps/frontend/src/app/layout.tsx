@@ -14,15 +14,10 @@ export function generateStaticParams() {
   return [{ locale: 'ar' }, { locale: 'en' }];
 }
 
-export default async function RootLayout({
-  children,
-  params: paramsPromise,
-}: {
-  children: ReactNode;
-  params: Promise<{ locale: string }>;
-}) {
-  const params = await paramsPromise;
-  const { locale } = params;
+export default async function RootLayout({ children }: { children: ReactNode }) {
+  // Default to English locale for root layout
+  // Locale-specific routing is handled by [locale] directory
+  const locale = 'en';
   const messages = await getMessages({ locale });
 
   return (
