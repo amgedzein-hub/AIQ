@@ -1,10 +1,13 @@
-'use client';
-
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
-export default function NotFoundPage() {
-  const t = useTranslations();
+export default async function NotFoundPage({
+  params,
+}: {
+  params: { locale: string };
+}) {
+  setRequestLocale(params.locale);
+  const t = await getTranslations();
 
   return (
     <div
