@@ -29,6 +29,10 @@ const DOMAINS = [
   },
 ];
 
+export function generateStaticParams() {
+  return [{ locale: 'ar' }, { locale: 'en' }];
+}
+
 export default async function HomePage({
   params,
 }: {
