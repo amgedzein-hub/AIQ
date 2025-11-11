@@ -1,6 +1,4 @@
-'use client';
-
-import { useTranslations } from 'next-intl';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 
 const DOMAINS = [
@@ -31,8 +29,13 @@ const DOMAINS = [
   },
 ];
 
-export default function HomePage() {
-  const t = useTranslations();
+export default async function HomePage({
+  params,
+}: {
+  params: { locale: string };
+}) {
+  setRequestLocale(params.locale);
+  const t = await getTranslations();
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100" dir="rtl">
