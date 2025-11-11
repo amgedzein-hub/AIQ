@@ -1,0 +1,44 @@
+{
+  "name": "@iq-test/backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint src/**/*.ts",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@iq-test/question-bank": "*",
+    "@iq-test/scoring-engine": "*",
+    "fastify": "^4.24.0",
+    "@fastify/cors": "^8.4.0",
+    "@fastify/jwt": "^7.0.0",
+    "@fastify/helmet": "^11.1.0",
+    "@fastify/rate-limit": "^8.0.0",
+    "pg": "^8.11.0",
+    "axios": "^1.6.0",
+    "@anthropic-ai/sdk": "^0.20.0",
+    "dotenv": "^16.3.0",
+    "zod": "^3.22.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/jest": "^29.0.0",
+    "typescript": "^5.3.0",
+    "tsx": "^4.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
