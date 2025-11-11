@@ -21,7 +21,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
   const messages = await getMessages({ locale });
 
   return (
-    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
+    <html lang={locale} dir={(locale as string) === 'ar' ? 'rtl' : 'ltr'}>
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Naskh+Arabic:wght@400;700&display=swap"
