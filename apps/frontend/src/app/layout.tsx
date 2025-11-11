@@ -28,7 +28,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
           rel="stylesheet"
         />
       </head>
-      <body className={`font-noto ${locale === 'ar' ? 'font-amiri' : ''}`}>
+      <body className={`font-noto ${(locale as string) === 'ar' ? 'font-amiri' : ''}`}>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
