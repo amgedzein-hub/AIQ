@@ -8,7 +8,12 @@
       "Bash(claude mcp get:*)",
       "Bash(vercel --version:*)",
       "Bash(vercel link:*)",
-      "Bash(vercel deploy:*)"
+      "Bash(vercel deploy:*)",
+      "Bash(vercel inspect:*)",
+      "Bash(vercel ls:*)",
+      "Bash(curl:*)",
+      "Bash(vercel project ls:*)",
+      "Bash(vercel logs:*)"
     ],
     "deny": [],
     "ask": []

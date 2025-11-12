@@ -1,6 +1,9 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 
+// Don't prerender this page - let it be rendered dynamically
+export const dynamic = 'force-dynamic';
+
 const DOMAINS = [
   {
     code: 'Gf',
@@ -28,10 +31,6 @@ const DOMAINS = [
     desc: 'سرعة إنجاز المهام المعرفية'
   },
 ];
-
-export function generateStaticParams() {
-  return [{ locale: 'ar' }, { locale: 'en' }];
-}
 
 export default async function HomePage({
   params,

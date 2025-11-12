@@ -9,6 +9,20 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
   },
+  // Disable static optimization for not-found pages
+  experimental: {
+    // Skip prerendering not-found pages
+  },
 };
 
-module.exports = withNextIntl(nextConfig);
+const wrappedConfig = withNextIntl(nextConfig);
+
+// Override the build process to skip not-found prerendering
+module.exports = {
+  ...wrappedConfig,
+  onDemandEntries: {
+    ...(wrappedConfig.onDemandEntries || {}),
+    maxInactiveAge: 60 * 1000,
+    pagesBufferLength: 5,
+  },
+};

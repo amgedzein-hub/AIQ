@@ -10,10 +10,6 @@ export const metadata: Metadata = {
   keywords: ['اختبار الذكاء', 'عربي', 'ذكاء', 'اختبار تكيفي'],
 };
 
-export function generateStaticParams() {
-  return [{ locale: 'ar' }, { locale: 'en' }];
-}
-
 export default async function RootLayout({ children }: { children: ReactNode }) {
   // Default to English locale for root layout
   // Locale-specific routing is handled by [locale] directory

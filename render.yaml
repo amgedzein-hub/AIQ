@@ -1,27 +1,19 @@
 services:
   - type: web
-    name: iq-test-backend
-    env: node
+    name: aiq-backend
+    runtime: docker
+    region: oregon
     plan: standard
-    buildCommand: npm install && npm run build -w @iq-test/backend
-    startCommand: npm start -w @iq-test/backend
-    healthCheckPath: /health
+    dockerfilePath: ./apps/backend/Dockerfile
+    dockerContext: ./
     envVars:
-      - key: NODE_ENV
-        value: production
-      - key: DATABASE_URL
-        fromDatabase:
-          name: iq-test-db
-          property: connectionString
-      - key: JWT_SECRET
-        sync: false
-      - key: CLAUDE_API_KEY
-        sync: false
       - key: BACKEND_PORT
         value: 3001
-
-databases:
-  - name: iq-test-db
-    databaseName: iq_test
-    user: iq_test_user
-    plan: standard
+      - key: JWT_SECRET
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: NODE_ENV
+        value: production
