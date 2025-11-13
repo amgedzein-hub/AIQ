@@ -2,10 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import TestInterface from '@/components/TestInterface';
-import { useRouter } from 'next/navigation';
 
 export default function TestPage() {
-  const router = useRouter();
   const [sessionId, setSessionId] = useState<string | null>(null);
 
   useEffect(() => {
