@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import Link from 'next/link';
 
 // Don't prerender this page - let it be rendered dynamically
 export const dynamic = 'force-dynamic';
@@ -64,6 +65,16 @@ export default async function HomePage({
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             {t('home.description')}
           </p>
+
+          {/* Start Test Button */}
+          <div className="pt-8">
+            <Link
+              href="./test"
+              className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-12 rounded-lg transition transform hover:scale-105 text-lg shadow-lg"
+            >
+              🚀 ابدأ الاختبار الآن
+            </Link>
+          </div>
         </div>
 
 
