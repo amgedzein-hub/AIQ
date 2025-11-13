@@ -1,5 +1,4 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import Link from 'next/link';
 
 // Don't prerender this page - let it be rendered dynamically
 export const dynamic = 'force-dynamic';
