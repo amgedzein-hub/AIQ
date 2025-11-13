@@ -67,21 +67,6 @@ export default async function HomePage({
           </p>
         </div>
 
-        {/* CTA Buttons */}
-        <div className="flex gap-6 justify-center mb-20">
-          <Link
-            href="./auth/login"
-            className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-10 rounded-lg transition transform hover:scale-105 text-lg shadow-lg"
-          >
-            🔐 {t('common.login')}
-          </Link>
-          <Link
-            href="./auth/signup"
-            className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-10 rounded-lg transition transform hover:scale-105 text-lg shadow-lg"
-          >
-            ➕ {t('common.signup')}
-          </Link>
-        </div>
 
         {/* Features Section */}
         <div className="bg-white rounded-2xl shadow-xl p-10 mb-20">
