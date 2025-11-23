@@ -39,12 +39,12 @@ export default function TestInterface({
   });
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
 
-  const fetchNextQuestion = useCallback(async () => {
+  const fetchNextQuestion = useCallback(async (currentResponses: Record<string, string>) => {
     try {
       setState((prev) => ({ ...prev, isLoading: true, error: null }));
       const response = await axios.post(`${API_URL}/questions/next`, {
         sessionId,
-        currentResponses: state.responses,
+        currentResponses,
       });
       setState((prev) => ({
         ...prev,
@@ -59,22 +59,24 @@ export default function TestInterface({
         isLoading: false,
       }));
     }
-  }, [sessionId, state.responses]);
+  }, [sessionId]);
 
   useEffect(() => {
-    fetchNextQuestion();
+    fetchNextQuestion({});
   }, [fetchNextQuestion]);
 
   const handleSubmitAnswer = async () => {
     if (!selectedAnswer || !state.currentQuestion) return;
 
     try {
+      const newResponses = {
+        ...prev.responses,
+        [state.currentQuestion!.id]: selectedAnswer,
+      };
+
       setState((prev) => ({
         ...prev,
-        responses: {
-          ...prev.responses,
-          [state.currentQuestion!.id]: selectedAnswer,
-        },
+        responses: newResponses,
       }));
 
       if (state.questionNumber >= state.totalQuestions) {
@@ -85,7 +87,7 @@ export default function TestInterface({
           ...prev,
           questionNumber: prev.questionNumber + 1,
         }));
-        await fetchNextQuestion();
+        await fetchNextQuestion(newResponses);
       }
     } catch (error) {
       setState((prev) => ({
@@ -161,8 +163,8 @@ export default function TestInterface({
             <label
               key={index}
               className={`flex items-center p-4 rounded-lg border-2 cursor-pointer transition ${selectedAnswer === option
-                  ? 'border-indigo-600 bg-indigo-50'
-                  : 'border-gray-200 hover:border-gray-300'
+                ? 'border-indigo-600 bg-indigo-50'
+                : 'border-gray-200 hover:border-gray-300'
                 }`}
             >
               <input
