@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && node -e \"require('fs').copyFileSync('src/questions.json', 'dist/questions.json')\"",
     "validate": "node scripts/validate.js"
   },
   "dependencies": {
