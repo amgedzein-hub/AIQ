@@ -14,6 +14,14 @@ const SubmitAnswerSchema = z.object({
 export async function answersRouter(fastify: FastifyInstance) {
   fastify.post(
     '/submit',
+    {
+      config: {
+        rateLimit: {
+          max: 5,
+          timeWindow: '1 minute',
+        },
+      },
+    },
     async (request: FastifyRequest, reply: FastifyReply) => {
       try {
         const body = SubmitAnswerSchema.parse(request.body);

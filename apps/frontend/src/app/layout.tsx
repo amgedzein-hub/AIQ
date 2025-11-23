@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { ReactNode } from 'react';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
+import ErrorBoundary from '@/components/ErrorBoundary';
 import '../styles/globals.css';
 
 export const metadata: Metadata = {
@@ -26,7 +27,9 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
       </head>
       <body className={`font-noto ${(locale as string) === 'ar' ? 'font-amiri' : ''}`}>
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <ErrorBoundary>
+            {children}
+          </ErrorBoundary>
         </NextIntlClientProvider>
       </body>
     </html>

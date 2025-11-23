@@ -9,6 +9,8 @@ import { questionsRouter } from './routes/questions';
 import { answersRouter } from './routes/answers';
 import { resultsRouter } from './routes/results';
 import { healthRouter } from './routes/health';
+import { sessionsRouter } from './routes/sessions';
+import { authRouter } from './routes/auth';
 
 dotenv.config();
 
@@ -35,11 +37,21 @@ async function start() {
     timeWindow: '15 minutes',
   });
 
+  server.decorate('authenticate', async (request: any, reply: any) => {
+    try {
+      await request.jwtVerify();
+    } catch (err) {
+      reply.send(err);
+    }
+  });
+
   // Register routes
   await server.register(healthRouter);
   await server.register(questionsRouter, { prefix: '/questions' });
   await server.register(answersRouter, { prefix: '/answers' });
   await server.register(resultsRouter, { prefix: '/results' });
+  await server.register(sessionsRouter, { prefix: '/sessions' });
+  await server.register(authRouter, { prefix: '/auth' });
 
   // Start server
   try {
