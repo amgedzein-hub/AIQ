@@ -6,7 +6,7 @@ COPY . .
 # Install dependencies for all workspaces
 RUN npm ci
 # Build the backend and its dependencies
-RUN npm run build --prefix=apps/backend --workspace=@iq-test/backend...
+RUN npx turbo run build --filter=@iq-test/backend...
 
 # Production runner
 FROM node:20-alpine AS runner
