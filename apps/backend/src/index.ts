@@ -25,7 +25,13 @@ async function start() {
   // Register plugins
   await server.register(helmet);
   await server.register(cors, {
-    origin: true,
+    origin: [
+      'https://aiq-brown.vercel.app',
+      'http://localhost:3000',
+      'http://localhost:3001',
+      /\.vercel\.app$/
+    ],
+    credentials: true,
   });
 
   await server.register(jwt, {
