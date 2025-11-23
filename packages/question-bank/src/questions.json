@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2024-01-15T00:00:00Z",
+  "version": "1.1.0",
+  "lastUpdated": "2025-11-24T00:00:00Z",
   "questions": [
     {
       "id": "550e8400-e29b-41d4-a716-446655440001",
@@ -9,7 +9,12 @@
       "discrimination": 1.5,
       "guessing": 0.25,
       "text_ar": "أكمل النمط: 2، 4، 8، 16، ؟",
-      "options": ["24", "32", "48", "64"],
+      "options": [
+        "24",
+        "32",
+        "48",
+        "64"
+      ],
       "correct": "32",
       "explanation_ar": "كل رقم هو ضعف الرقم السابق",
       "culturalContext": "الأنماط الرياضية"
@@ -21,7 +26,12 @@
       "discrimination": 1.3,
       "guessing": 0.25,
       "text_ar": "ما هو المعنى الصحيح لكلمة 'الحكمة'؟",
-      "options": ["المال الكثير", "المعرفة والتجربة المجتمعة", "القوة البدنية", "السرعة في العمل"],
+      "options": [
+        "المال الكثير",
+        "المعرفة والتجربة المجتمعة",
+        "القوة البدنية",
+        "السرعة في العمل"
+      ],
       "correct": "المعرفة والتجربة المجتمعة",
       "explanation_ar": "الحكمة تتضمن المعرفة والخبرة والحكم الصحيح",
       "culturalContext": "المفردات العربية الفصحى"
@@ -33,7 +43,12 @@
       "discrimination": 1.4,
       "guessing": 0.25,
       "text_ar": "تذكر هذا الترتيب: أحمر، أزرق، أخضر، أصفر. ما الرابع؟",
-      "options": ["أحمر", "أزرق", "أصفر", "برتقالي"],
+      "options": [
+        "أحمر",
+        "أزرق",
+        "أصفر",
+        "برتقالي"
+      ],
       "correct": "أصفر",
       "explanation_ar": "كان الترتيب: أحمر، أزرق، أخضر، أصفر",
       "culturalContext": "اختبار الذاكرة قصيرة الأجل"
@@ -45,7 +60,12 @@
       "discrimination": 1.2,
       "guessing": 0.25,
       "text_ar": "أي الأشكال التالية يكمل هذا النمط بشكل صحيح؟",
-      "options": ["مربع", "دائرة", "مثلث", "خماسي"],
+      "options": [
+        "مربع",
+        "دائرة",
+        "مثلث",
+        "خماسي"
+      ],
       "correct": "مربع",
       "explanation_ar": "النمط يتبع تسلسل الأشكال الهندسية",
       "culturalContext": "المعالجة البصرية"
@@ -57,10 +77,270 @@
       "discrimination": 1.1,
       "guessing": 0.25,
       "text_ar": "كم عدد الأحرف في كلمة 'الاستقلال'؟",
-      "options": ["8", "9", "10", "11"],
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
       "correct": "10",
       "explanation_ar": "الاستقلال تحتوي على 10 أحرف",
       "culturalContext": "سرعة المعالجة"
+    },
+    {
+      "domain": "Gf",
+      "text_ar": "ما الرقم الذي يجب أن يحل محل علامة الاستفهام؟ 3، 6، 12، 24، ؟",
+      "options": [
+        "30",
+        "36",
+        "48",
+        "60"
+      ],
+      "correct": "48",
+      "explanation_ar": "كل رقم هو ضعف الرقم السابق",
+      "culturalContext": "الأنماط الرياضية",
+      "id": "d91275e4-89d3-4d4e-83e6-6d37a81cadcf",
+      "difficulty": 0.67,
+      "discrimination": 0.84,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gc",
+      "text_ar": "ما هو مرادف كلمة 'إيثار'؟",
+      "options": [
+        "أنانية",
+        "تفضيل الغير",
+        "شجاعة",
+        "كرم"
+      ],
+      "correct": "تفضيل الغير",
+      "explanation_ar": "الإيثار هو تفضيل مصلحة الآخرين على النفس",
+      "culturalContext": "المفردات العربية",
+      "id": "a72c5bfe-621c-4fbe-bf2e-7412436a9a06",
+      "difficulty": 0.56,
+      "discrimination": 1.84,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gwm",
+      "text_ar": "إذا كان اليوم هو الاثنين، فماذا سيكون اليوم بعد 3 أيام؟",
+      "options": [
+        "الأربعاء",
+        "الخميس",
+        "الجمعة",
+        "السبت"
+      ],
+      "correct": "الخميس",
+      "explanation_ar": "الاثنين + 3 أيام = الخميس",
+      "culturalContext": "الاستدلال الزمني",
+      "id": "5017c073-53c1-40a5-9074-6002387a3831",
+      "difficulty": 0.35,
+      "discrimination": 0.87,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gv",
+      "text_ar": "أي من الأشكال التالية هو الأقرب في الشبه للمربع؟",
+      "options": [
+        "دائرة",
+        "مستطيل",
+        "مثلث",
+        "نجمة"
+      ],
+      "correct": "مستطيل",
+      "explanation_ar": "المستطيل والمربع كلاهما أشكال رباعية بزوايا قائمة",
+      "culturalContext": "الإدراك البصري",
+      "id": "5e8bb868-ec9d-42d4-bfea-e7d535d17171",
+      "difficulty": 0.36,
+      "discrimination": 1.43,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gs",
+      "text_ar": "أوجد الرقم المختلف: 20، 30، 40، 55",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "55"
+      ],
+      "correct": "55",
+      "explanation_ar": "جميع الأرقام تقبل القسمة على 10 ما عدا 55",
+      "culturalContext": "سرعة المعالجة",
+      "id": "9e64ff46-806d-422d-b427-c3bbc2038666",
+      "difficulty": 0.34,
+      "discrimination": 0.98,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gf",
+      "text_ar": "أكمل المتتالية: 1، 1، 2، 3، 5، 8، ؟",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "correct": "13",
+      "explanation_ar": "متتالية فيبوناتشي: كل رقم هو مجموع الرقمين السابقين",
+      "culturalContext": "الأنماط الرياضية",
+      "id": "351adcff-7472-470d-bcdd-b217d30d423f",
+      "difficulty": 0.41,
+      "discrimination": 0.8,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gc",
+      "text_ar": "ما هو ضد كلمة 'تفاؤل'؟",
+      "options": [
+        "تشاؤم",
+        "حزن",
+        "غضب",
+        "يأس"
+      ],
+      "correct": "تشاؤم",
+      "explanation_ar": "التفاؤل والتشاؤم متضادان",
+      "culturalContext": "المفردات العربية",
+      "id": "62e43a0c-8f29-46a6-85cd-cae5995ab387",
+      "difficulty": 0.38,
+      "discrimination": 1.23,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gwm",
+      "text_ar": "احفظ الأرقام التالية: 5، 9، 2، 7. ما هو الرقم الثاني؟",
+      "options": [
+        "5",
+        "9",
+        "2",
+        "7"
+      ],
+      "correct": "9",
+      "explanation_ar": "الرقم الثاني في القائمة هو 9",
+      "culturalContext": "الذاكرة العاملة",
+      "id": "3b2b47df-6385-4c12-b37c-6772cb6bf7fb",
+      "difficulty": 0.36,
+      "discrimination": 1.73,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gv",
+      "text_ar": "إذا قمنا بتدوير حرف 'M' 180 درجة، ماذا يصبح؟",
+      "options": [
+        "W",
+        "E",
+        "3",
+        "N"
+      ],
+      "correct": "W",
+      "explanation_ar": "تدوير M يعطي W",
+      "culturalContext": "التخيل البصري",
+      "id": "202240b4-b459-4cb5-882f-db4089682cb2",
+      "difficulty": 0.36,
+      "discrimination": 1.88,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gs",
+      "text_ar": "أي الكلمات التالية لا تنتمي للمجموعة؟ تفاحة، موزة، برتقالة، سيارة",
+      "options": [
+        "تفاحة",
+        "موزة",
+        "برتقالة",
+        "سيارة"
+      ],
+      "correct": "سيارة",
+      "explanation_ar": "السيارة ليست فاكهة",
+      "culturalContext": "التصنيف السريع",
+      "id": "123cb3ed-26f0-43d3-8a9a-172a32209edb",
+      "difficulty": 0.56,
+      "discrimination": 1.26,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gf",
+      "text_ar": "إذا كان أطول من ب، وب أطول من ج، فمن الأقصر؟",
+      "options": [
+        "أ",
+        "ب",
+        "ج",
+        "لا يمكن التحديد"
+      ],
+      "correct": "ج",
+      "explanation_ar": "بالترتيب: أ > ب > ج",
+      "culturalContext": "الاستدلال المنطقي",
+      "id": "5715b83d-8270-4990-b50f-2616445f5ab8",
+      "difficulty": 0.53,
+      "discrimination": 1.09,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gc",
+      "text_ar": "أكمل المثل: 'الوقت كالسيف إن لم تقطعه...'",
+      "options": [
+        "قطعك",
+        "جرحك",
+        "فاتك",
+        "انتظرك"
+      ],
+      "correct": "قطعك",
+      "explanation_ar": "مثل عربي مشهور",
+      "culturalContext": "الأمثال العربية",
+      "id": "3077c95b-d354-4900-8889-f6bd40d44394",
+      "difficulty": 0.41,
+      "discrimination": 1.25,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gwm",
+      "text_ar": "قم بالعملية الحسابية في رأسك: 15 + 25 - 10",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "correct": "30",
+      "explanation_ar": "40 - 10 = 30",
+      "culturalContext": "الحساب الذهني",
+      "id": "fe4fd6a1-5ca0-443b-809e-916c8c46132a",
+      "difficulty": 0.35,
+      "discrimination": 1.88,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gv",
+      "text_ar": "كم عدد المثلثات في نجمة خماسية؟",
+      "options": [
+        "5",
+        "6",
+        "10",
+        "15"
+      ],
+      "correct": "10",
+      "explanation_ar": "5 مثلثات صغيرة و5 مثلثات كبيرة (أطراف النجمة)",
+      "culturalContext": "الإدراك الهندسي",
+      "id": "d0dce43e-3dba-4758-a3d1-1a1ef114ea4b",
+      "difficulty": 0.31,
+      "discrimination": 0.97,
+      "guessing": 0.25
+    },
+    {
+      "domain": "Gs",
+      "text_ar": "اختر الشكل المطابق: (دائرة حمراء داخل مربع أزرق)",
+      "options": [
+        "دائرة زرقاء في مربع أحمر",
+        "دائرة حمراء في مربع أزرق",
+        "مربع أحمر في دائرة زرقاء",
+        "مربع أزرق في دائرة حمراء"
+      ],
+      "correct": "دائرة حمراء في مربع أزرق",
+      "explanation_ar": "المطابقة الدقيقة للوصف",
+      "culturalContext": "سرعة المطابقة",
+      "id": "ec333144-b309-48e3-8903-b4e5256054bd",
+      "difficulty": 0.39,
+      "discrimination": 1.53,
+      "guessing": 0.25
     }
   ]
 }
