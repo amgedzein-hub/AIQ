@@ -21,7 +21,7 @@ interface TestState {
   error: string | null;
 }
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || '/api';
+const API_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:3001';
 
 export default function TestInterface({
   sessionId,
@@ -160,11 +160,10 @@ export default function TestInterface({
           {state.currentQuestion.options.map((option, index) => (
             <label
               key={index}
-              className={`flex items-center p-4 rounded-lg border-2 cursor-pointer transition ${
-                selectedAnswer === option
+              className={`flex items-center p-4 rounded-lg border-2 cursor-pointer transition ${selectedAnswer === option
                   ? 'border-indigo-600 bg-indigo-50'
                   : 'border-gray-200 hover:border-gray-300'
-              }`}
+                }`}
             >
               <input
                 type="radio"
