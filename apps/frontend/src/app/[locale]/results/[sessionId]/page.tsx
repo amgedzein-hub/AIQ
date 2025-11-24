@@ -1,5 +1,7 @@
 import ResultsView from '@/components/ResultsView';
 
+export const dynamic = 'force-dynamic';
+
 export default async function ResultsPage({
     params,
 }: {
