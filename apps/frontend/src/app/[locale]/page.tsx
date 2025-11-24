@@ -39,7 +39,7 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations();
+  setRequestLocale(locale);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100" dir="rtl">
@@ -60,10 +60,10 @@ export default async function HomePage({
             اختبار الذكاء العربي المتكيف
           </h2>
           <p className="text-2xl text-gray-700 max-w-3xl mx-auto">
-            {t('home.subtitle')}
+            منصة متطورة للاختبار التكيفي للذكاء بناءً على نظرية CHC
           </p>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            {t('home.description')}
+            اختبر ذكاءك الآن باستخدام تقنيات متقدمة ومحكمة من الذكاء الاصطناعي
           </p>
 
           {/* Start Test Button */}
@@ -81,28 +81,28 @@ export default async function HomePage({
         {/* Features Section */}
         <div className="bg-white rounded-2xl shadow-xl p-10 mb-20">
           <h3 className="text-3xl font-bold text-center text-indigo-700 mb-10">
-            ✨ {t('home.features')}
+            ✨ المميزات الرئيسية
           </h3>
           <ul className="space-y-4 text-lg text-gray-700">
             <li className="flex items-start gap-3">
               <span className="text-2xl">✅</span>
-              <span>{t('home.feature1')}</span>
+              <span>اختبار متكيف باستخدام نظرية الاستجابة للفقرة (IRT)</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-2xl">✅</span>
-              <span>{t('home.feature2')}</span>
+              <span>دعم كامل للغة العربية مع التخطيط من اليمين لليسار (RTL)</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-2xl">✅</span>
-              <span>{t('home.feature3')}</span>
+              <span>تفسير النتائج بقوة الذكاء الاصطناعي (Claude)</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-2xl">✅</span>
-              <span>{t('home.feature4')}</span>
+              <span>تتبع التقدم بشكل فوري وحقيقي</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-2xl">✅</span>
-              <span>{t('home.feature5')}</span>
+              <span>تحليل شامل لمجالات الذكاء الخمسة</span>
             </li>
           </ul>
         </div>
