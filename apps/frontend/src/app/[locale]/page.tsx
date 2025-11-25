@@ -1,4 +1,3 @@
-import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 
 // Don't prerender this page - let it be rendered dynamically
@@ -38,7 +37,6 @@ export default async function HomePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  setRequestLocale(locale);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100" dir="rtl">
