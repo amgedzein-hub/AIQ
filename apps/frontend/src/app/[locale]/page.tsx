@@ -7,27 +7,37 @@ const DOMAINS = [
   {
     code: 'Gf',
     name: 'الاستدلال السائل',
-    desc: 'التفكير المنطقي والاستدلال بالنمط'
+    desc: 'التفكير المنطقي والاستدلال بالنمط',
+    icon: '⚡',
+    color: 'from-amber-400 to-orange-500'
   },
   {
     code: 'Gc',
     name: 'الذكاء المتبلور',
-    desc: 'المعرفة والمهارات المكتسبة'
+    desc: 'المعرفة والمهارات المكتسبة',
+    icon: '📚',
+    color: 'from-blue-400 to-indigo-500'
   },
   {
     code: 'Gwm',
     name: 'الذاكرة العاملة',
-    desc: 'معالجة المعلومات قصيرة الأجل'
+    desc: 'معالجة المعلومات قصيرة الأجل',
+    icon: '🧠',
+    color: 'from-emerald-400 to-teal-500'
   },
   {
     code: 'Gv',
     name: 'المعالجة البصرية',
-    desc: 'إدراك المعلومات البصرية والمكانية'
+    desc: 'إدراك المعلومات البصرية والمكانية',
+    icon: '👁️',
+    color: 'from-purple-400 to-pink-500'
   },
   {
     code: 'Gs',
     name: 'سرعة المعالجة',
-    desc: 'سرعة إنجاز المهام المعرفية'
+    desc: 'سرعة إنجاز المهام المعرفية',
+    icon: '⚙️',
+    color: 'from-red-400 to-rose-500'
   },
 ];
 
@@ -39,122 +49,118 @@ export default async function HomePage({
   await params;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100" dir="rtl">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-indigo-50" dir="rtl">
       {/* Header/Navigation */}
-      <nav className="bg-white shadow-lg">
-        <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
-          <h1 className="text-3xl font-bold text-indigo-700">
-            🧠 منصة اختبار الذكاء العربي
-          </h1>
+      <nav className="glass sticky top-0 z-50 border-b border-white/20">
+        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+          <div className="flex items-center gap-3">
+            <span className="text-3xl animate-float">🧠</span>
+            <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-secondary-600">
+              منصة اختبار الذكاء العربي
+            </h1>
+          </div>
         </div>
       </nav>
 
       {/* Main Content */}
-      <main className="max-w-6xl mx-auto px-4 py-16">
+      <main className="max-w-7xl mx-auto px-6 py-16 space-y-32">
         {/* Hero Section */}
-        <div className="text-center space-y-6 mb-20">
-          <h2 className="text-5xl font-bold text-gray-900 leading-tight">
-            اختبار الذكاء العربي المتكيف
+        <div className="text-center space-y-8 animate-fade-in-up">
+          <div className="inline-block px-4 py-2 rounded-full bg-primary-50 text-primary-700 text-sm font-medium mb-4 border border-primary-100">
+            ✨ الإصدار الجديد 2.0
+          </div>
+          <h2 className="text-6xl md:text-7xl font-bold text-slate-900 leading-tight tracking-tight">
+            اكتشف قدراتك العقلية
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-600 mt-2">
+              بدقة علمية متناهية
+            </span>
           </h2>
-          <p className="text-2xl text-gray-700 max-w-3xl mx-auto">
-            منصة متطورة للاختبار التكيفي للذكاء بناءً على نظرية CHC
-          </p>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            اختبر ذكاءك الآن باستخدام تقنيات متقدمة ومحكمة من الذكاء الاصطناعي
+          <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+            منصة متطورة للاختبار التكيفي للذكاء بناءً على نظرية CHC، تجمع بين دقة القياس النفسي وقوة الذكاء الاصطناعي.
           </p>
 
-          {/* Start Test Button */}
-          <div className="pt-8">
+          <div className="pt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="./test"
-              className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-12 rounded-lg transition transform hover:scale-105 text-lg shadow-lg"
+              className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gradient-to-r from-primary-600 to-secondary-600 rounded-full hover:shadow-lg hover:shadow-primary-500/30 hover:-translate-y-1 overflow-hidden"
             >
-              🚀 ابدأ الاختبار الآن
+              <span className="relative z-10 flex items-center gap-2">
+                🚀 ابدأ الاختبار الآن
+              </span>
+              <div className="absolute inset-0 bg-gradient-to-r from-secondary-600 to-primary-600 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
             </Link>
+            <a href="#features" className="text-slate-600 hover:text-primary-600 font-medium transition-colors px-6 py-4">
+              معرفة المزيد ↓
+            </a>
           </div>
         </div>
 
-
-        {/* Features Section */}
-        <div className="bg-white rounded-2xl shadow-xl p-10 mb-20">
-          <h3 className="text-3xl font-bold text-center text-indigo-700 mb-10">
-            ✨ المميزات الرئيسية
-          </h3>
-          <ul className="space-y-4 text-lg text-gray-700">
-            <li className="flex items-start gap-3">
-              <span className="text-2xl">✅</span>
-              <span>اختبار متكيف باستخدام نظرية الاستجابة للفقرة (IRT)</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-2xl">✅</span>
-              <span>دعم كامل للغة العربية مع التخطيط من اليمين لليسار (RTL)</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-2xl">✅</span>
-              <span>تفسير النتائج بقوة الذكاء الاصطناعي (Claude)</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-2xl">✅</span>
-              <span>تتبع التقدم بشكل فوري وحقيقي</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-2xl">✅</span>
-              <span>تحليل شامل لمجالات الذكاء الخمسة</span>
-            </li>
-          </ul>
+        {/* Features Grid */}
+        <div id="features" className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="glass-card p-8 rounded-3xl hover:border-primary-200 transition-colors duration-300 delay-100 animate-fade-in-up">
+            <div className="w-14 h-14 bg-primary-100 rounded-2xl flex items-center justify-center text-3xl mb-6">
+              🎯
+            </div>
+            <h3 className="text-xl font-bold text-slate-900 mb-3">اختبار متكيف ذكي</h3>
+            <p className="text-slate-600">
+              يستخدم خوارزميات IRT المتقدمة لتكييف صعوبة الأسئلة مع مستوى أدائك بدقة عالية.
+            </p>
+          </div>
+          <div className="glass-card p-8 rounded-3xl hover:border-secondary-200 transition-colors duration-300 delay-200 animate-fade-in-up">
+            <div className="w-14 h-14 bg-secondary-100 rounded-2xl flex items-center justify-center text-3xl mb-6">
+              🤖
+            </div>
+            <h3 className="text-xl font-bold text-slate-900 mb-3">تحليل بالذكاء الاصطناعي</h3>
+            <p className="text-slate-600">
+              احصل على تقرير مفصل وشامل يفسر نتائجك ونقاط قوتك باستخدام تقنيات Claude AI.
+            </p>
+          </div>
+          <div className="glass-card p-8 rounded-3xl hover:border-emerald-200 transition-colors duration-300 delay-300 animate-fade-in-up">
+            <div className="w-14 h-14 bg-emerald-100 rounded-2xl flex items-center justify-center text-3xl mb-6">
+              🌍
+            </div>
+            <h3 className="text-xl font-bold text-slate-900 mb-3">معايير عالمية</h3>
+            <p className="text-slate-600">
+              مبني على أحدث النظريات العلمية (CHC) لضمان دقة وموثوقية النتائج.
+            </p>
+          </div>
         </div>
 
         {/* Domains Section */}
-        <div className="mb-20">
-          <h3 className="text-3xl font-bold text-center text-indigo-700 mb-12">
-            🧠 مجالات الذكاء الخمسة
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-            {DOMAINS.map((domain) => (
-              <div
-                key={domain.code}
-                className="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl hover:scale-105 transition transform"
-              >
-                <div className="text-4xl mb-3 text-center">
-                  {domain.code === 'Gf' && '⚡'}
-                  {domain.code === 'Gc' && '📚'}
-                  {domain.code === 'Gwm' && '🧠'}
-                  {domain.code === 'Gv' && '👁️'}
-                  {domain.code === 'Gs' && '⚙️'}
+        <div className="relative">
+          <div className="absolute inset-0 bg-gradient-to-r from-primary-500/5 to-secondary-500/5 rounded-[3rem] -m-8" />
+          <div className="relative">
+            <h3 className="text-3xl font-bold text-center text-slate-900 mb-12">
+              مجالات الذكاء الخمسة
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+              {DOMAINS.map((domain, index) => (
+                <div
+                  key={domain.code}
+                  className="glass p-6 rounded-2xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  <div className={`w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br ${domain.color} flex items-center justify-center text-3xl shadow-lg group-hover:scale-110 transition-transform duration-300`}>
+                    {domain.icon}
+                  </div>
+                  <h4 className="text-lg font-bold text-slate-900 mb-2 text-center">
+                    {domain.name}
+                  </h4>
+                  <p className="text-slate-500 text-sm text-center leading-relaxed">
+                    {domain.desc}
+                  </p>
                 </div>
-                <h4 className="text-lg font-bold text-indigo-700 mb-2 text-center">
-                  {domain.name}
-                </h4>
-                <p className="text-gray-600 text-sm text-center">
-                  {domain.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* About Section */}
-        <div className="bg-gradient-to-r from-indigo-600 to-blue-600 rounded-2xl shadow-xl p-10 text-white">
-          <h3 className="text-3xl font-bold mb-6 text-center">
-            📖 عن الاختبار
-          </h3>
-          <div className="space-y-4 text-lg leading-relaxed">
-            <p>
-              اختبار الذكاء العربي هو منصة متطورة تستخدم أحدث التقنيات في مجال القياس النفسي والتعليم التكيفي.
-            </p>
-            <p>
-              يعتمد الاختبار على نظرية CHC (Cattell-Horn-Carroll) وتقنية نظرية الاستجابة للفقرة (IRT) لتقديم تجربة اختبار دقيقة وفعالة.
-            </p>
-            <p>
-              يتم تطبيق الذكاء الاصطناعي (Claude) لتقديم تفسيرات مفصلة وموثوقة لنتائجك.
-            </p>
+              ))}
+            </div>
           </div>
         </div>
 
         {/* Footer */}
-        <div className="text-center mt-20 text-gray-600">
-          <p>© 2024 منصة اختبار الذكاء العربي. جميع الحقوق محفوظة.</p>
-        </div>
+        <footer className="border-t border-slate-200 pt-12 pb-8 text-center">
+          <p className="text-slate-500 font-medium">
+            © 2024 منصة اختبار الذكاء العربي. جميع الحقوق محفوظة.
+          </p>
+        </footer>
       </main>
     </div>
   );
