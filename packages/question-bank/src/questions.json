@@ -1,6 +1,6 @@
 {
-  "version": "1.1.0",
-  "lastUpdated": "2025-11-24T00:00:00Z",
+  "version": "1.2.0",
+  "lastUpdated": "2025-11-26T00:00:00Z",
   "questions": [
     {
       "id": "550e8400-e29b-41d4-a716-446655440001",
@@ -341,6 +341,856 @@
       "difficulty": 0.39,
       "discrimination": 1.53,
       "guessing": 0.25
+    },
+    {
+      "id": "a2c59865-f516-4814-94f0-1d017f26404b",
+      "domain": "Gf",
+      "difficulty": 0.15,
+      "discrimination": 1.2,
+      "guessing": 0.25,
+      "text_ar": "أكمل النمط: 5، 10، 15، 20، ؟",
+      "options": [
+        "22",
+        "25",
+        "30",
+        "35"
+      ],
+      "correct": "25",
+      "explanation_ar": "كل رقم يزيد بمقدار 5",
+      "culturalContext": "الأنماط العددية البسيطة"
+    },
+    {
+      "id": "21e2e1da-270f-4027-bd01-a036fc8b7fe9",
+      "domain": "Gf",
+      "difficulty": 0.28,
+      "discrimination": 1.4,
+      "guessing": 0.25,
+      "text_ar": "إذا كان كل القطط حيوانات، وبعض الحيوانات تطير، فهل كل القطط تطير؟",
+      "options": [
+        "نعم",
+        "لا",
+        "ربما",
+        "لا يمكن التحديد"
+      ],
+      "correct": "لا",
+      "explanation_ar": "لا يمكن استنتاج أن كل القطط تطير من المعطيات",
+      "culturalContext": "الاستدلال المنطقي"
+    },
+    {
+      "id": "6f2330c9-fe7f-4485-977d-260239eb767f",
+      "domain": "Gf",
+      "difficulty": 0.45,
+      "discrimination": 1.6,
+      "guessing": 0.25,
+      "text_ar": "أكمل النمط: 1، 4، 9، 16، 25، ؟",
+      "options": [
+        "30",
+        "36",
+        "40",
+        "49"
+      ],
+      "correct": "36",
+      "explanation_ar": "مربعات الأعداد: 1²، 2²، 3²، 4²، 5²، 6²",
+      "culturalContext": "الأنماط الرياضية"
+    },
+    {
+      "id": "95918375-4f24-4601-bb9d-771ce9b7725b",
+      "domain": "Gf",
+      "difficulty": 0.58,
+      "discrimination": 1.7,
+      "guessing": 0.25,
+      "text_ar": "إذا كان 3 × 4 = 21، و 5 × 6 = 55، فما هو 7 × 8؟",
+      "options": [
+        "56",
+        "91",
+        "104",
+        "112"
+      ],
+      "correct": "104",
+      "explanation_ar": "النمط: a×b×2-2. مثال: 7×8×2-8=104",
+      "culturalContext": "الاستدلال الرياضي المعقد"
+    },
+    {
+      "id": "f9a5d23d-12a6-41da-af78-49c5ed09694d",
+      "domain": "Gf",
+      "difficulty": 0.72,
+      "discrimination": 1.8,
+      "guessing": 0.25,
+      "text_ar": "أكمل المتتالية: 2، 6، 12، 20، 30، ؟",
+      "options": [
+        "40",
+        "42",
+        "44",
+        "48"
+      ],
+      "correct": "42",
+      "explanation_ar": "الفروق: 4، 6، 8، 10، 12. كل فرق يزيد بمقدار 2",
+      "culturalContext": "المتتاليات الرياضية"
+    },
+    {
+      "id": "d945156c-c06d-46ba-8923-003fe82f277d",
+      "domain": "Gf",
+      "difficulty": 0.35,
+      "discrimination": 1.3,
+      "guessing": 0.25,
+      "text_ar": "ما العدد الذي لا ينتمي للمجموعة: 2، 4، 6، 9، 10؟",
+      "options": [
+        "2",
+        "4",
+        "9",
+        "10"
+      ],
+      "correct": "9",
+      "explanation_ar": "9 هو العدد الوحيد الفردي",
+      "culturalContext": "التصنيف المنطقي"
+    },
+    {
+      "id": "da8b2f21-6a75-4ddf-8d72-249642d26d09",
+      "domain": "Gf",
+      "difficulty": 0.82,
+      "discrimination": 2.0,
+      "guessing": 0.25,
+      "text_ar": "إذا كان A > B، و B > C، و C > D، و E < C، فأي من التالي صحيح؟",
+      "options": [
+        "E > D",
+        "D > E",
+        "A > E",
+        "لا يمكن التحديد"
+      ],
+      "correct": "لا يمكن التحديد",
+      "explanation_ar": "لا نعرف العلاقة بين E و D بدقة",
+      "culturalContext": "الاستدلال المنطقي المتقدم"
+    },
+    {
+      "id": "356fadf1-dacc-4b4e-9ef2-d0738aa6ffa8",
+      "domain": "Gf",
+      "difficulty": 0.2,
+      "discrimination": 1.1,
+      "guessing": 0.25,
+      "text_ar": "أكمل: 10، 20، 30، ؟",
+      "options": [
+        "35",
+        "40",
+        "45",
+        "50"
+      ],
+      "correct": "40",
+      "explanation_ar": "كل رقم يزيد بمقدار 10",
+      "culturalContext": "الأنماط البسيطة"
+    },
+    {
+      "id": "eb45df37-2241-48ad-9cb7-431a3a5248ce",
+      "domain": "Gf",
+      "difficulty": 0.65,
+      "discrimination": 1.9,
+      "guessing": 0.25,
+      "text_ar": "إذا استغرق 5 عمال 5 أيام لبناء 5 جدران، كم يوماً يستغرق 10 عمال لبناء 10 جدران؟",
+      "options": [
+        "5 أيام",
+        "10 أيام",
+        "2.5 أيام",
+        "7.5 أيام"
+      ],
+      "correct": "5 أيام",
+      "explanation_ar": "معدل العمل ثابت: عامل واحد يبني جدار في 5 أيام",
+      "culturalContext": "حل المسائل الكلامية"
+    },
+    {
+      "id": "b74b848b-3df5-44ce-a278-2a8580b5a5d5",
+      "domain": "Gf",
+      "difficulty": 0.88,
+      "discrimination": 2.1,
+      "guessing": 0.25,
+      "text_ar": "في سلسلة منطقية: إذا كان P يعني Q، و Q يعني R، و ليس R، فماذا يمكن استنتاجه؟",
+      "options": [
+        "P صحيح",
+        "ليس P",
+        "Q صحيح",
+        "لا شيء"
+      ],
+      "correct": "ليس P",
+      "explanation_ar": "بالاستدلال العكسي: ليس R → ليس Q → ليس P",
+      "culturalContext": "المنطق الرمزي"
+    },
+    {
+      "id": "5f6c3f22-a406-4a59-90bc-7ab05a4f5b7d",
+      "domain": "Gc",
+      "difficulty": 0.12,
+      "discrimination": 1.0,
+      "guessing": 0.25,
+      "text_ar": "ما معنى كلمة 'بيت'؟",
+      "options": [
+        "مكان للسكن",
+        "حيوان",
+        "طعام",
+        "لون"
+      ],
+      "correct": "مكان للسكن",
+      "explanation_ar": "البيت هو المسكن",
+      "culturalContext": "المفردات الأساسية"
+    },
+    {
+      "id": "13bf23b5-0282-49aa-ad81-acd5e23ab771",
+      "domain": "Gc",
+      "difficulty": 0.25,
+      "discrimination": 1.2,
+      "guessing": 0.25,
+      "text_ar": "ما هو عكس كلمة 'كبير'؟",
+      "options": [
+        "صغير",
+        "طويل",
+        "عريض",
+        "ضخم"
+      ],
+      "correct": "صغير",
+      "explanation_ar": "كبير وصغير متضادان",
+      "culturalContext": "الأضداد"
+    },
+    {
+      "id": "738de715-96ee-46ef-9187-98f12da1aadd",
+      "domain": "Gc",
+      "difficulty": 0.42,
+      "discrimination": 1.5,
+      "guessing": 0.25,
+      "text_ar": "ما معنى 'الصبر مفتاح الفرج'؟",
+      "options": [
+        "الانتظار يجلب الحلول",
+        "الصبر صعب",
+        "المفاتيح مهمة",
+        "الفرج بعيد"
+      ],
+      "correct": "الانتظار يجلب الحلول",
+      "explanation_ar": "مثل عربي يعني أن الصبر يؤدي للنجاح",
+      "culturalContext": "الأمثال العربية"
+    },
+    {
+      "id": "7a73c81c-387d-4d8c-8ca8-cd7895062f7d",
+      "domain": "Gc",
+      "difficulty": 0.55,
+      "discrimination": 1.6,
+      "guessing": 0.25,
+      "text_ar": "ما معنى كلمة 'استقصاء'؟",
+      "options": [
+        "البحث والتحقيق",
+        "الهروب",
+        "الاستسلام",
+        "التجاهل"
+      ],
+      "correct": "البحث والتحقيق",
+      "explanation_ar": "الاستقصاء يعني البحث الدقيق عن المعلومات",
+      "culturalContext": "المفردات المتقدمة"
+    },
+    {
+      "id": "5a6ca4b5-d41b-4839-9e27-12050985e49e",
+      "domain": "Gc",
+      "difficulty": 0.68,
+      "discrimination": 1.7,
+      "guessing": 0.25,
+      "text_ar": "ما معنى 'الديمقراطية'؟",
+      "options": [
+        "حكم الشعب",
+        "حكم الملك",
+        "حكم العسكر",
+        "حكم القضاء"
+      ],
+      "correct": "حكم الشعب",
+      "explanation_ar": "الديمقراطية من الكلمة اليونانية التي تعني حكم الشعب",
+      "culturalContext": "المفاهيم السياسية"
+    },
+    {
+      "id": "ae00f897-075c-4fc3-b6c5-91501d32f5d0",
+      "domain": "Gc",
+      "difficulty": 0.78,
+      "discrimination": 1.8,
+      "guessing": 0.25,
+      "text_ar": "ما معنى 'الإبستمولوجيا'؟",
+      "options": [
+        "نظرية المعرفة",
+        "علم النفس",
+        "علم الأحياء",
+        "الفلسفة العامة"
+      ],
+      "correct": "نظرية المعرفة",
+      "explanation_ar": "الإبستمولوجيا هي فرع الفلسفة الذي يدرس طبيعة المعرفة",
+      "culturalContext": "المصطلحات الفلسفية"
+    },
+    {
+      "id": "67b7926f-a4e0-4333-94e5-1e82e2e0d6f5",
+      "domain": "Gc",
+      "difficulty": 0.32,
+      "discrimination": 1.3,
+      "guessing": 0.25,
+      "text_ar": "من هو مؤلف 'ألف ليلة وليلة'؟",
+      "options": [
+        "مجهول",
+        "طه حسين",
+        "نجيب محفوظ",
+        "المتنبي"
+      ],
+      "correct": "مجهول",
+      "explanation_ar": "ألف ليلة وليلة عمل جماعي من التراث الشعبي",
+      "culturalContext": "الثقافة العربية"
+    },
+    {
+      "id": "3df201a3-2b45-4708-91fc-8a047074965a",
+      "domain": "Gc",
+      "difficulty": 0.85,
+      "discrimination": 2.0,
+      "guessing": 0.25,
+      "text_ar": "ما الفرق بين 'الاستقراء' و 'الاستنباط'؟",
+      "options": [
+        "الأول من الخاص للعام والثاني من العام للخاص",
+        "لا فرق بينهما",
+        "الأول أسهل",
+        "الثاني أقدم"
+      ],
+      "correct": "الأول من الخاص للعام والثاني من العام للخاص",
+      "explanation_ar": "الاستقراء يبدأ من الأمثلة للقاعدة، والاستنباط من القاعدة للأمثلة",
+      "culturalContext": "المنطق والفلسفة"
+    },
+    {
+      "id": "47fca762-e7d9-4cd8-836d-bc534742e33a",
+      "domain": "Gc",
+      "difficulty": 0.48,
+      "discrimination": 1.4,
+      "guessing": 0.25,
+      "text_ar": "ما هو مرادف 'الجَلَد'؟",
+      "options": [
+        "الصبر والتحمل",
+        "الجلد (الغطاء)",
+        "الضرب",
+        "الهروب"
+      ],
+      "correct": "الصبر والتحمل",
+      "explanation_ar": "الجَلَد يعني القدرة على التحمل",
+      "culturalContext": "المفردات العربية"
+    },
+    {
+      "id": "bd302dfc-74e2-43cb-aef1-55618ced1f82",
+      "domain": "Gc",
+      "difficulty": 0.92,
+      "discrimination": 2.2,
+      "guessing": 0.25,
+      "text_ar": "في البلاغة العربية، ما الفرق بين 'الكناية' و 'المجاز المرسل'؟",
+      "options": [
+        "الكناية تلميح والمجاز استعارة بعلاقة غير المشابهة",
+        "لا فرق",
+        "الكناية أصعب",
+        "المجاز أقدم"
+      ],
+      "correct": "الكناية تلميح والمجاز استعارة بعلاقة غير المشابهة",
+      "explanation_ar": "الكناية تعبير غير مباشر، والمجاز المرسل علاقته غير المشابهة",
+      "culturalContext": "البلاغة العربية"
+    },
+    {
+      "id": "0a307a92-6b20-4fc4-8b4d-666318f4ea92",
+      "domain": "Gwm",
+      "difficulty": 0.18,
+      "discrimination": 1.1,
+      "guessing": 0.25,
+      "text_ar": "تذكر: 3، 7. ما هو الأول؟",
+      "options": [
+        "3",
+        "7",
+        "4",
+        "10"
+      ],
+      "correct": "3",
+      "explanation_ar": "الرقم الأول في القائمة هو 3",
+      "culturalContext": "الذاكرة قصيرة المدى"
+    },
+    {
+      "id": "730a25cd-c15c-42bf-a866-8c7f86f59985",
+      "domain": "Gwm",
+      "difficulty": 0.3,
+      "discrimination": 1.3,
+      "guessing": 0.25,
+      "text_ar": "احسب في رأسك: 8 + 5",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correct": "13",
+      "explanation_ar": "8 + 5 = 13",
+      "culturalContext": "الحساب الذهني البسيط"
+    },
+    {
+      "id": "fdf0c211-07ff-43b0-8fe1-316fdc729edc",
+      "domain": "Gwm",
+      "difficulty": 0.44,
+      "discrimination": 1.5,
+      "guessing": 0.25,
+      "text_ar": "تذكر الترتيب: قلم، كتاب، مفتاح، ساعة. ما هو الثالث؟",
+      "options": [
+        "قلم",
+        "كتاب",
+        "مفتاح",
+        "ساعة"
+      ],
+      "correct": "مفتاح",
+      "explanation_ar": "الترتيب: قلم (1)، كتاب (2)، مفتاح (3)، ساعة (4)",
+      "culturalContext": "الذاكرة التسلسلية"
+    },
+    {
+      "id": "502f8fb5-80eb-4248-acab-bdd5644e17e1",
+      "domain": "Gwm",
+      "difficulty": 0.58,
+      "discrimination": 1.6,
+      "guessing": 0.25,
+      "text_ar": "احسب: (12 + 8) - 5",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "correct": "15",
+      "explanation_ar": "12 + 8 = 20، ثم 20 - 5 = 15",
+      "culturalContext": "الحساب الذهني متعدد الخطوات"
+    },
+    {
+      "id": "b0f84882-463a-41fc-94bd-505a06188ac5",
+      "domain": "Gwm",
+      "difficulty": 0.7,
+      "discrimination": 1.7,
+      "guessing": 0.25,
+      "text_ar": "تذكر الأرقام بالعكس: 4، 8، 2، 9. ما هو الترتيب العكسي؟",
+      "options": [
+        "9، 2، 8، 4",
+        "4، 8، 2، 9",
+        "9، 8، 2، 4",
+        "2، 4، 8، 9"
+      ],
+      "correct": "9، 2، 8، 4",
+      "explanation_ar": "عكس الترتيب من الآخر للأول",
+      "culturalContext": "الذاكرة العكسية"
+    },
+    {
+      "id": "5b3d6676-990c-4fab-ad3f-2e13581de334",
+      "domain": "Gwm",
+      "difficulty": 0.38,
+      "discrimination": 1.4,
+      "guessing": 0.25,
+      "text_ar": "إذا كان اليوم الأربعاء، ما اليوم بعد يومين؟",
+      "options": [
+        "الخميس",
+        "الجمعة",
+        "السبت",
+        "الأحد"
+      ],
+      "correct": "الجمعة",
+      "explanation_ar": "الأربعاء + 2 = الجمعة",
+      "culturalContext": "الاستدلال الزمني"
+    },
+    {
+      "id": "c1ae7fde-55ce-46b2-bc86-8b2e820768dc",
+      "domain": "Gwm",
+      "difficulty": 0.82,
+      "discrimination": 1.9,
+      "guessing": 0.25,
+      "text_ar": "احسب: (25 - 7) × 2 + 6",
+      "options": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "correct": "42",
+      "explanation_ar": "25 - 7 = 18، 18 × 2 = 36، 36 + 6 = 42",
+      "culturalContext": "الحساب الذهني المعقد"
+    },
+    {
+      "id": "74f6d380-b321-4d08-b0a5-3ffca459825f",
+      "domain": "Gwm",
+      "difficulty": 0.22,
+      "discrimination": 1.2,
+      "guessing": 0.25,
+      "text_ar": "تذكر: أحمد، فاطمة، علي. من الثاني؟",
+      "options": [
+        "أحمد",
+        "فاطمة",
+        "علي",
+        "لا أحد"
+      ],
+      "correct": "فاطمة",
+      "explanation_ar": "الترتيب: أحمد (1)، فاطمة (2)، علي (3)",
+      "culturalContext": "ذاكرة الأسماء"
+    },
+    {
+      "id": "f19a91a5-b97a-4a71-8c83-6f96b952500e",
+      "domain": "Gwm",
+      "difficulty": 0.65,
+      "discrimination": 1.8,
+      "guessing": 0.25,
+      "text_ar": "رتب الأحرف أبجدياً في رأسك: د، أ، ج، ب. ما الترتيب؟",
+      "options": [
+        "أ، ب، ج، د",
+        "د، ج، ب، أ",
+        "ب، أ، د، ج",
+        "أ، د، ب، ج"
+      ],
+      "correct": "أ، ب، ج، د",
+      "explanation_ar": "الترتيب الأبجدي الصحيح",
+      "culturalContext": "الترتيب الذهني"
+    },
+    {
+      "id": "39de9023-99e1-4b86-ace5-1df34e8cd340",
+      "domain": "Gwm",
+      "difficulty": 0.9,
+      "discrimination": 2.1,
+      "guessing": 0.25,
+      "text_ar": "تذكر واعكس: 7، 3، 9، 1، 5. ثم اجمع الأول والأخير من الترتيب العكسي",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "8"
+      ],
+      "correct": "12",
+      "explanation_ar": "العكس: 5، 1، 9، 3، 7. الأول (5) + الأخير (7) = 12",
+      "culturalContext": "الذاكرة العاملة المعقدة"
+    },
+    {
+      "id": "77e5f537-2721-448c-bbdd-53c431c87ee3",
+      "domain": "Gv",
+      "difficulty": 0.16,
+      "discrimination": 1.0,
+      "guessing": 0.25,
+      "text_ar": "كم عدد أضلاع المثلث؟",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": "3",
+      "explanation_ar": "المثلث له 3 أضلاع",
+      "culturalContext": "الأشكال الهندسية الأساسية"
+    },
+    {
+      "id": "d8e82d67-6e1e-4b7b-821d-3ec49c676740",
+      "domain": "Gv",
+      "difficulty": 0.28,
+      "discrimination": 1.2,
+      "guessing": 0.25,
+      "text_ar": "أي شكل له 4 أضلاع متساوية وزوايا قائمة؟",
+      "options": [
+        "مثلث",
+        "مربع",
+        "دائرة",
+        "خماسي"
+      ],
+      "correct": "مربع",
+      "explanation_ar": "المربع له 4 أضلاع متساوية و4 زوايا قائمة",
+      "culturalContext": "الأشكال الهندسية"
+    },
+    {
+      "id": "3a8e7107-4984-43d0-bebc-b60989ccc9cb",
+      "domain": "Gv",
+      "difficulty": 0.42,
+      "discrimination": 1.4,
+      "guessing": 0.25,
+      "text_ar": "إذا طويت ورقة مربعة من المنتصف، ما الشكل الناتج؟",
+      "options": [
+        "مثلث",
+        "مستطيل",
+        "دائرة",
+        "مربع أصغر"
+      ],
+      "correct": "مستطيل",
+      "explanation_ar": "طي المربع من المنتصف ينتج مستطيل",
+      "culturalContext": "الطي الذهني"
+    },
+    {
+      "id": "f107dcd0-f7ce-4acf-990b-800605db7fdf",
+      "domain": "Gv",
+      "difficulty": 0.56,
+      "discrimination": 1.6,
+      "guessing": 0.25,
+      "text_ar": "كم عدد المكعبات في بناء من 3 طوابق (3×3×3)؟",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "36"
+      ],
+      "correct": "27",
+      "explanation_ar": "3 × 3 × 3 = 27 مكعب",
+      "culturalContext": "التصور المكاني"
+    },
+    {
+      "id": "69edfd6d-8fcc-45a2-bfd2-cb58fbb9b6b3",
+      "domain": "Gv",
+      "difficulty": 0.68,
+      "discrimination": 1.7,
+      "guessing": 0.25,
+      "text_ar": "إذا نظرت لمكعب من الأعلى، ماذا ترى؟",
+      "options": [
+        "دائرة",
+        "مربع",
+        "مثلث",
+        "مستطيل"
+      ],
+      "correct": "مربع",
+      "explanation_ar": "المنظر العلوي للمكعب هو مربع",
+      "culturalContext": "المنظور المكاني"
+    },
+    {
+      "id": "871c63f6-1f45-4007-a461-c05629c2812a",
+      "domain": "Gv",
+      "difficulty": 0.75,
+      "discrimination": 1.8,
+      "guessing": 0.25,
+      "text_ar": "كم وجه مرئي في مكعب من زاوية معينة؟",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": "3",
+      "explanation_ar": "من أي زاوية، يمكن رؤية 3 وجوه كحد أقصى",
+      "culturalContext": "الإدراك المكاني"
+    },
+    {
+      "id": "73bc7f26-4512-4fff-841b-0996689fec5e",
+      "domain": "Gv",
+      "difficulty": 0.35,
+      "discrimination": 1.3,
+      "guessing": 0.25,
+      "text_ar": "أي الأشكال يمكن رسمه بدون رفع القلم؟",
+      "options": [
+        "مربع",
+        "نجمة خماسية",
+        "حرف X",
+        "كلها"
+      ],
+      "correct": "كلها",
+      "explanation_ar": "جميع هذه الأشكال يمكن رسمها بخط متصل",
+      "culturalContext": "الرسم المتصل"
+    },
+    {
+      "id": "e7500d55-0d87-41fc-9cc9-1a0dfc07aaa2",
+      "domain": "Gv",
+      "difficulty": 0.84,
+      "discrimination": 2.0,
+      "guessing": 0.25,
+      "text_ar": "إذا قطعت مكعب بمستوى قطري، ما شكل المقطع؟",
+      "options": [
+        "مربع",
+        "مستطيل",
+        "مثلث",
+        "سداسي"
+      ],
+      "correct": "مستطيل",
+      "explanation_ar": "القطع القطري للمكعب ينتج مستطيل",
+      "culturalContext": "المقاطع الهندسية"
+    },
+    {
+      "id": "ef93bac7-c6e9-4699-9f07-9de978cd94fb",
+      "domain": "Gv",
+      "difficulty": 0.48,
+      "discrimination": 1.5,
+      "guessing": 0.25,
+      "text_ar": "كم عدد المثلثات في شكل نجمة داوود (سداسية)؟",
+      "options": [
+        "2",
+        "6",
+        "8",
+        "12"
+      ],
+      "correct": "12",
+      "explanation_ar": "نجمة داوود تحتوي على 12 مثلث صغير",
+      "culturalContext": "عد الأشكال"
+    },
+    {
+      "id": "cee89913-8bce-4698-9a8c-902f1d4d37c7",
+      "domain": "Gv",
+      "difficulty": 0.92,
+      "discrimination": 2.2,
+      "guessing": 0.25,
+      "text_ar": "في إسقاط متساوي القياس، كيف تظهر الزوايا القائمة؟",
+      "options": [
+        "90 درجة",
+        "120 درجة",
+        "60 درجة",
+        "تختلف"
+      ],
+      "correct": "120 درجة",
+      "explanation_ar": "في الإسقاط الأيزومتري، الزوايا القائمة تظهر 120 درجة",
+      "culturalContext": "الإسقاط الهندسي"
+    },
+    {
+      "id": "5f252cf5-e61b-42fd-8f2d-df0dbff5f865",
+      "domain": "Gs",
+      "difficulty": 0.14,
+      "discrimination": 0.9,
+      "guessing": 0.25,
+      "text_ar": "أي رقم أكبر: 5 أم 3؟",
+      "options": [
+        "5",
+        "3",
+        "متساويان",
+        "لا يمكن التحديد"
+      ],
+      "correct": "5",
+      "explanation_ar": "5 أكبر من 3",
+      "culturalContext": "المقارنة البسيطة"
+    },
+    {
+      "id": "86ffda31-8114-460e-86f0-59cebb27cc6e",
+      "domain": "Gs",
+      "difficulty": 0.24,
+      "discrimination": 1.1,
+      "guessing": 0.25,
+      "text_ar": "كم حرف في كلمة 'كتاب'؟",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": "4",
+      "explanation_ar": "ك-ت-ا-ب = 4 أحرف",
+      "culturalContext": "عد الأحرف"
+    },
+    {
+      "id": "7803afd6-43ed-473b-99c0-985111ff630d",
+      "domain": "Gs",
+      "difficulty": 0.36,
+      "discrimination": 1.3,
+      "guessing": 0.25,
+      "text_ar": "أوجد الرقم المختلف: 11، 13، 15، 18",
+      "options": [
+        "11",
+        "13",
+        "15",
+        "18"
+      ],
+      "correct": "18",
+      "explanation_ar": "18 هو الرقم الزوجي الوحيد",
+      "culturalContext": "التمييز السريع"
+    },
+    {
+      "id": "b0d82895-531c-4c16-b59b-8ab2152a303f",
+      "domain": "Gs",
+      "difficulty": 0.48,
+      "discrimination": 1.4,
+      "guessing": 0.25,
+      "text_ar": "كم عدد الكلمات: 'الذكاء الاصطناعي مفيد'؟",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": "3",
+      "explanation_ar": "الذكاء - الاصطناعي - مفيد = 3 كلمات",
+      "culturalContext": "عد الكلمات"
+    },
+    {
+      "id": "49de4a0b-5ed3-4d9b-aebf-a9de7370ae14",
+      "domain": "Gs",
+      "difficulty": 0.58,
+      "discrimination": 1.5,
+      "guessing": 0.25,
+      "text_ar": "أي كلمة لا تبدأ بحرف 'أ': أحمد، علي، أمل، أسامة؟",
+      "options": [
+        "أحمد",
+        "علي",
+        "أمل",
+        "أسامة"
+      ],
+      "correct": "علي",
+      "explanation_ar": "علي يبدأ بحرف 'ع' وليس 'أ'",
+      "culturalContext": "التمييز الإملائي"
+    },
+    {
+      "id": "1d5c7747-42b9-4bfa-84ea-bcd5b2a45577",
+      "domain": "Gs",
+      "difficulty": 0.32,
+      "discrimination": 1.2,
+      "guessing": 0.25,
+      "text_ar": "أي رقم يقبل القسمة على 5: 12، 15، 17، 19؟",
+      "options": [
+        "12",
+        "15",
+        "17",
+        "19"
+      ],
+      "correct": "15",
+      "explanation_ar": "15 ÷ 5 = 3",
+      "culturalContext": "القسمة السريعة"
+    },
+    {
+      "id": "623d1d14-24ea-4aa5-86ef-e47ae4fc213f",
+      "domain": "Gs",
+      "difficulty": 0.68,
+      "discrimination": 1.6,
+      "guessing": 0.25,
+      "text_ar": "كم عدد حروف العلة في: 'التعليم'؟",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": "3",
+      "explanation_ar": "ا - ي - ي = 3 حروف علة",
+      "culturalContext": "تحليل الكلمات"
+    },
+    {
+      "id": "4c31a8bf-9e87-4d8f-b331-b4f952939fae",
+      "domain": "Gs",
+      "difficulty": 0.42,
+      "discrimination": 1.4,
+      "guessing": 0.25,
+      "text_ar": "أي عدد أولي: 4، 6، 7، 8؟",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": "7",
+      "explanation_ar": "7 عدد أولي (يقبل القسمة على نفسه و1 فقط)",
+      "culturalContext": "الأعداد الأولية"
+    },
+    {
+      "id": "0ff8f348-ebe2-4ebf-8a42-c13307d812e8",
+      "domain": "Gs",
+      "difficulty": 0.76,
+      "discrimination": 1.7,
+      "guessing": 0.25,
+      "text_ar": "كم كلمة تحتوي على 'ال' التعريف: 'الكتاب على الطاولة في البيت'؟",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": "3",
+      "explanation_ar": "الكتاب - الطاولة - البيت = 3 كلمات",
+      "culturalContext": "التحليل اللغوي السريع"
+    },
+    {
+      "id": "aa29e70f-b0ad-4d1b-b7b5-bc75555b44d8",
+      "domain": "Gs",
+      "difficulty": 0.88,
+      "discrimination": 1.9,
+      "guessing": 0.25,
+      "text_ar": "في النص 'العلم نور والجهل ظلام'، كم حرف 'ل'؟",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": "6",
+      "explanation_ar": "العلم (ل+ل) + الجهل (ل+ل) + ظلام (ل+ل) = 6 أحرف",
+      "culturalContext": "عد الأحرف المتقدم"
     }
   ]
 }
