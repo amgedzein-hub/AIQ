@@ -70,7 +70,7 @@ export default function TestInterface({
 
     try {
       const newResponses = {
-        ...prev.responses,
+        ...state.responses,
         [state.currentQuestion!.id]: selectedAnswer,
       };
 
