@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useTranslations } from 'next-intl';
 import axios from 'axios';
 
 interface DomainResult {
@@ -20,7 +19,6 @@ interface ResultsData {
 const API_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:3001';
 
 export default function ResultsView({ sessionId }: { sessionId: string }) {
-    const t = useTranslations();
     const [results, setResults] = useState<ResultsData | null>(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
