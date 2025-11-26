@@ -41,23 +41,26 @@ export class AdaptiveScoringEngine implements ScoringEngine {
       return null;
     }
 
-    // Select question with maximum information at current theta
-    let maxInfo = -Infinity;
-    let selectedQuestion: Question | null = null;
-
-    availableQuestions.forEach((question) => {
-      const info = calculateItemInformation(currentTheta, {
+    // Calculate information for all available questions
+    const questionsWithInfo = availableQuestions.map((question) => ({
+      question,
+      information: calculateItemInformation(currentTheta, {
         difficulty: question.difficulty,
         discrimination: question.discrimination,
-      });
+      }),
+    }));
 
-      if (info > maxInfo) {
-        maxInfo = info;
-        selectedQuestion = question;
-      }
-    });
+    // Sort by information (descending)
+    questionsWithInfo.sort((a, b) => b.information - a.information);
 
-    return selectedQuestion;
+    // Select from top 5 questions with highest information (or fewer if not available)
+    // This maintains adaptive testing principles while adding variety
+    const topN = Math.min(5, questionsWithInfo.length);
+    const topQuestions = questionsWithInfo.slice(0, topN);
+
+    // Randomly select one from the top questions
+    const randomIndex = Math.floor(Math.random() * topQuestions.length);
+    return topQuestions[randomIndex].question;
   }
 
   updateTheta(
