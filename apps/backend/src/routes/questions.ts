@@ -41,6 +41,8 @@ export async function questionsRouter(fastify: FastifyInstance) {
           text_ar: nextQuestion.text_ar,
           options: nextQuestion.options,
           difficulty: nextQuestion.difficulty,
+          correct: nextQuestion.correct,
+          explanation_ar: nextQuestion.explanation_ar,
         },
         sessionId,
       };

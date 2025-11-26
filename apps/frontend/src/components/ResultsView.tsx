@@ -8,12 +8,22 @@ interface DomainResult {
     percentile: number;
 }
 
+interface QuestionReview {
+    questionText: string;
+    domain: string;
+    userAnswer: string;
+    correctAnswer: string;
+    isCorrect: boolean;
+    explanation: string;
+}
+
 interface ResultsData {
     sessionId: string;
     totalScore: number;
     percentile: number;
     domains: Record<string, DomainResult>;
     interpretation: string;
+    review?: QuestionReview[];
 }
 
 const API_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:3001';
@@ -125,6 +135,63 @@ export default function ResultsView({ sessionId }: { sessionId: string }) {
                         </div>
                     </div>
                 </div>
+
+                {/* Answer Review Section */}
+                {results.review && results.review.length > 0 && (
+                    <div className="glass-card p-8 rounded-3xl animate-fade-in-up delay-300">
+                        <div className="flex items-center gap-3 mb-6">
+                            <span className="text-2xl">📝</span>
+                            <h3 className="text-xl font-bold text-slate-900">مراجعة الإجابات</h3>
+                        </div>
+                        <div className="space-y-4 max-h-96 overflow-y-auto">
+                            {results.review.map((item, index) => (
+                                <div
+                                    key={index}
+                                    className={`p-5 rounded-2xl border-2 ${item.isCorrect
+                                            ? 'bg-emerald-50/50 border-emerald-200'
+                                            : 'bg-rose-50/50 border-rose-200'
+                                        }`}
+                                >
+                                    <div className="flex items-start justify-between mb-3">
+                                        <div className="flex-1">
+                                            <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-white/80 text-slate-700 mb-2">
+                                                {item.domain}
+                                            </span>
+                                            <p className="text-slate-900 font-medium leading-relaxed">
+                                                {item.questionText}
+                                            </p>
+                                        </div>
+                                        <span className="text-2xl mr-3">
+                                            {item.isCorrect ? '✅' : '❌'}
+                                        </span>
+                                    </div>
+
+                                    <div className="space-y-2 text-sm">
+                                        <div className="flex items-center gap-2">
+                                            <span className="font-medium text-slate-600">إجابتك:</span>
+                                            <span className={item.isCorrect ? 'text-emerald-700 font-medium' : 'text-rose-700'}>
+                                                {item.userAnswer}
+                                            </span>
+                                        </div>
+                                        {!item.isCorrect && (
+                                            <div className="flex items-center gap-2">
+                                                <span className="font-medium text-slate-600">الإجابة الصحيحة:</span>
+                                                <span className="text-emerald-700 font-medium">
+                                                    {item.correctAnswer}
+                                                </span>
+                                            </div>
+                                        )}
+                                        <div className="pt-2 border-t border-slate-200/50">
+                                            <p className="text-slate-600 italic">
+                                                💡 {item.explanation}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
 
                 <div className="text-center pt-8 animate-fade-in-up delay-300">
                     <a

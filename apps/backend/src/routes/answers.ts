@@ -49,6 +49,20 @@ export async function answersRouter(fastify: FastifyInstance) {
           question.discrimination
         );
 
+        // Store the response in session for review
+        const { sessionStore } = await import('../services/session-store');
+        sessionStore.addResponse(
+          sessionId,
+          questionId,
+          question.text_ar,
+          question.domain,
+          answer,
+          question.correct,
+          question.explanation_ar,
+          question.difficulty
+        );
+        sessionStore.updateTheta(sessionId, updatedTheta);
+
         logger.info(
           `Answer submitted for session ${sessionId}: ${isCorrect ? 'correct' : 'incorrect'}`
         );

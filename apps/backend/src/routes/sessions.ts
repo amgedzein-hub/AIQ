@@ -13,6 +13,10 @@ export async function sessionsRouter(fastify: FastifyInstance) {
             const body = CreateSessionSchema.parse(request.body || {});
             const session = await sessionService.createSession(body.userId);
 
+            // Initialize session in store for tracking
+            const { sessionStore } = await import('../services/session-store');
+            sessionStore.createSession(session.id);
+
             logger.info(`Created new session: ${session.id}`);
 
             return {
