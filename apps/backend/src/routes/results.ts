@@ -21,6 +21,10 @@ export async function resultsRouter(fastify: FastifyInstance) {
           return reply.code(404).send({ error: 'Session not found' });
         }
 
+        // Debug logging
+        logger.info(`Session ${sessionId} has ${session.responses.length} responses`);
+        logger.info(`Session responses: ${JSON.stringify(session.responses.slice(0, 2))}`);
+
         // Mark session as ended
         sessionStore.endSession(sessionId);
 

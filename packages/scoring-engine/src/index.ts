@@ -53,9 +53,13 @@ export class AdaptiveScoringEngine implements ScoringEngine {
     // Sort by information (descending)
     questionsWithInfo.sort((a, b) => b.information - a.information);
 
-    // Select from top 5 questions with highest information (or fewer if not available)
-    // This maintains adaptive testing principles while adding variety
-    const topN = Math.min(5, questionsWithInfo.length);
+    // Select from top questions to add variety
+    // For the first question (no used questions), pick from a larger pool (top 20)
+    // For subsequent questions, pick from top 10 (increased from 5)
+    const isFirstQuestion = usedQuestionIds.length === 0;
+    const poolSize = isFirstQuestion ? 20 : 10;
+
+    const topN = Math.min(poolSize, questionsWithInfo.length);
     const topQuestions = questionsWithInfo.slice(0, topN);
 
     // Randomly select one from the top questions

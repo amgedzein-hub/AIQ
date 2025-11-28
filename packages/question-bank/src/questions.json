@@ -83,8 +83,8 @@
         "10",
         "11"
       ],
-      "correct": "10",
-      "explanation_ar": "الاستقلال تحتوي على 10 أحرف",
+      "correct": "9",
+      "explanation_ar": "الاستقلال تحتوي على 9 أحرف",
       "culturalContext": "سرعة المعالجة"
     },
     {
@@ -448,7 +448,7 @@
       "id": "da8b2f21-6a75-4ddf-8d72-249642d26d09",
       "domain": "Gf",
       "difficulty": 0.82,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "إذا كان A > B، و B > C، و C > D، و E < C، فأي من التالي صحيح؟",
       "options": [
@@ -516,7 +516,7 @@
       "id": "5f6c3f22-a406-4a59-90bc-7ab05a4f5b7d",
       "domain": "Gc",
       "difficulty": 0.12,
-      "discrimination": 1.0,
+      "discrimination": 1,
       "guessing": 0.25,
       "text_ar": "ما معنى كلمة 'بيت'؟",
       "options": [
@@ -635,7 +635,7 @@
       "id": "3df201a3-2b45-4708-91fc-8a047074965a",
       "domain": "Gc",
       "difficulty": 0.85,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "ما الفرق بين 'الاستقراء' و 'الاستنباط'؟",
       "options": [
@@ -856,7 +856,7 @@
       "id": "77e5f537-2721-448c-bbdd-53c431c87ee3",
       "domain": "Gv",
       "difficulty": 0.16,
-      "discrimination": 1.0,
+      "discrimination": 1,
       "guessing": 0.25,
       "text_ar": "كم عدد أضلاع المثلث؟",
       "options": [
@@ -975,7 +975,7 @@
       "id": "e7500d55-0d87-41fc-9cc9-1a0dfc07aaa2",
       "domain": "Gv",
       "difficulty": 0.84,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "إذا قطعت مكعب بمستوى قطري، ما شكل المقطع؟",
       "options": [
@@ -1400,7 +1400,7 @@
       "id": "7ada50e5-d41f-43b5-9660-f46c1bffe9a5",
       "domain": "Gf",
       "difficulty": 0.75,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "إذا كان A > B > C، و D < B، و D > C، فما الترتيب؟",
       "options": [
@@ -1434,7 +1434,7 @@
       "id": "5fff499d-c72e-437e-af58-d5e4fc3c2c60",
       "domain": "Gf",
       "difficulty": 0.8,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "أكمل: 2، 6، 14، 30، 62، ؟",
       "options": [
@@ -1570,7 +1570,7 @@
       "id": "531b5a6d-a582-49a3-83bf-19caf853fe36",
       "domain": "Gf",
       "difficulty": 0.77,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "إذا كان 3 عمال ينجزون عمل في 6 أيام، كم عامل لإنجازه في يومين؟",
       "options": [
@@ -1842,7 +1842,7 @@
       "id": "a3d9f53f-f820-49fa-9235-8cd72ed8c575",
       "domain": "Gc",
       "difficulty": 0.8,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "من قائل 'أنا أفكر إذن أنا موجود'؟",
       "options": [
@@ -1978,7 +1978,7 @@
       "id": "9a6b4cfd-0953-4483-b5c3-64a47c11e992",
       "domain": "Gc",
       "difficulty": 0.82,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "ما الفرق بين 'الميتافيزيقا' و 'الفيزيقا'؟",
       "options": [
@@ -2284,7 +2284,7 @@
       "id": "52f5be88-da37-4ffd-b825-75deedbb3367",
       "domain": "Gwm",
       "difficulty": 0.76,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "تذكر بالعكس: 2، 5، 8، 1. ثم اجمع الأول والثاني",
       "options": [
@@ -2301,7 +2301,7 @@
       "id": "83957c26-1675-4750-81c6-4d257a5fedcf",
       "domain": "Gwm",
       "difficulty": 0.8,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "احسب: 15 × 4 - 10",
       "options": [
@@ -2454,7 +2454,7 @@
       "id": "d7275def-f5ae-48bc-a90e-7e8bd9a6a206",
       "domain": "Gwm",
       "difficulty": 0.78,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "احسب: 100 - 37",
       "options": [
@@ -2709,7 +2709,7 @@
       "id": "d0ce62ca-ba8f-4840-b624-9c4f33c6ad2e",
       "domain": "Gv",
       "difficulty": 0.8,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "كم محور تماثل في المربع؟",
       "options": [
@@ -2862,7 +2862,7 @@
       "id": "0737f3d1-a004-4e06-b006-3c4d49b7599c",
       "domain": "Gv",
       "difficulty": 0.78,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "كم محور تماثل في المثلث المتساوي الأضلاع؟",
       "options": [
@@ -2879,7 +2879,7 @@
       "id": "81739ffa-c1f1-4afa-be2b-a58c8ec1dbf4",
       "domain": "Gv",
       "difficulty": 0.82,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "في منظور نقطة واحدة، أين نقطة التلاشي؟",
       "options": [
@@ -2964,7 +2964,7 @@
       "id": "994b5803-992e-4581-af03-63729ff2952f",
       "domain": "Gs",
       "difficulty": 0.16,
-      "discrimination": 1.0,
+      "discrimination": 1,
       "guessing": 0.25,
       "text_ar": "أي رقم أصغر: 7 أم 9؟",
       "options": [
@@ -3202,7 +3202,7 @@
       "id": "f6457d6b-0e29-4cfb-9fbb-298ceede8369",
       "domain": "Gs",
       "difficulty": 0.86,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "في 'البيت الكبير'، كم كلمة معرفة؟",
       "options": [
@@ -3219,7 +3219,7 @@
       "id": "ee635179-87ef-487f-ade7-875d8a9fbb0f",
       "domain": "Gs",
       "difficulty": 0.18,
-      "discrimination": 1.0,
+      "discrimination": 1,
       "guessing": 0.25,
       "text_ar": "أي رقم أكبر: 2 أم 1؟",
       "options": [
@@ -3355,7 +3355,7 @@
       "id": "e06ac5de-f154-4344-9bdb-fa1b7fac0c0a",
       "domain": "Gs",
       "difficulty": 0.84,
-      "discrimination": 2.0,
+      "discrimination": 2,
       "guessing": 0.25,
       "text_ar": "أي كلمة جمع: كتاب، كتب، مكتبة، كاتب؟",
       "options": [

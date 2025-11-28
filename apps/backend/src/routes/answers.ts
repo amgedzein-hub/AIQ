@@ -17,7 +17,7 @@ export async function answersRouter(fastify: FastifyInstance) {
     {
       config: {
         rateLimit: {
-          max: 5,
+          max: 30, // Allow 20 questions + some buffer
           timeWindow: '1 minute',
         },
       },

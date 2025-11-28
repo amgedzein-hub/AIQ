@@ -1,0 +1,242 @@
+{"level":"info","message":"Server running at http://localhost:3001","service":"iq-test-backend"}
+{"level":"info","message":"Created new session: 3674639c-6238-4636-b9ef-f1697479ca97","service":"iq-test-backend"}
+{"level":"info","message":"Created new session: 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question a72c5bfe-621c-4fbe-bf2e-7412436a9a06 for session 3674639c-6238-4636-b9ef-f1697479ca97","service":"iq-test-backend"}
+{"level":"info","message":"Served question 3b2b47df-6385-4c12-b37c-6772cb6bf7fb for session 3674639c-6238-4636-b9ef-f1697479ca97","service":"iq-test-backend"}
+{"level":"info","message":"Served question eb45df37-2241-48ad-9cb7-431a3a5248ce for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question fe4fd6a1-5ca0-443b-809e-916c8c46132a for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question 6c285a2c-85ee-48ca-a527-cf29801c50dc for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question 3b2b47df-6385-4c12-b37c-6772cb6bf7fb for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question 202240b4-b459-4cb5-882f-db4089682cb2 for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question a72c5bfe-621c-4fbe-bf2e-7412436a9a06 for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question 7ada50e5-d41f-43b5-9660-f46c1bffe9a5 for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question e020f3b4-0bc4-4f79-8464-3321cc8bd679 for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question f19a91a5-b97a-4a71-8c83-6f96b952500e for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question 69eeeb18-c90a-4d1b-a35f-a5c913f207ae for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question 52f5be88-da37-4ffd-b825-75deedbb3367 for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question f8cfd803-afd1-40c1-b33b-f9b605ba9b93 for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question a64e32f8-26ed-463d-ac17-cc85d2a54c99 for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question 61b5aa4c-61f9-432b-be8d-b6ffdd013fce for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question 49e4ea4c-be12-4237-b516-a092926edf33 for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question 9f386370-fa5f-440b-a5be-c82ea287272e for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question 531b5a6d-a582-49a3-83bf-19caf853fe36 for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question c93aa633-8d01-40af-9d4a-229c125f71cc for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question 4beefef9-fbe5-468f-8b50-ec46bd831e39 for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Served question 3c230db1-1190-40d2-b22d-aa2cf4532c4c for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Results retrieved for session 48d527da-7a84-41f1-8ded-41d1237d593f","service":"iq-test-backend"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"iq-test-backend"}
+{"level":"info","message":"Created new session: a570d029-aad6-47d1-bd08-dd2d91b9d16e","service":"iq-test-backend"}
+{"level":"info","message":"Created new session: a4de6764-f5bc-4931-81b9-129fe8a7ae9d","service":"iq-test-backend"}
+{"level":"info","message":"Served question 202240b4-b459-4cb5-882f-db4089682cb2 for session a4de6764-f5bc-4931-81b9-129fe8a7ae9d","service":"iq-test-backend"}
+{"level":"info","message":"Served question 202240b4-b459-4cb5-882f-db4089682cb2 for session a4de6764-f5bc-4931-81b9-129fe8a7ae9d","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a4de6764-f5bc-4931-81b9-129fe8a7ae9d: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question a72c5bfe-621c-4fbe-bf2e-7412436a9a06 for session a4de6764-f5bc-4931-81b9-129fe8a7ae9d","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a4de6764-f5bc-4931-81b9-129fe8a7ae9d: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question f8cfd803-afd1-40c1-b33b-f9b605ba9b93 for session a4de6764-f5bc-4931-81b9-129fe8a7ae9d","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a4de6764-f5bc-4931-81b9-129fe8a7ae9d: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 3b2b47df-6385-4c12-b37c-6772cb6bf7fb for session a4de6764-f5bc-4931-81b9-129fe8a7ae9d","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a4de6764-f5bc-4931-81b9-129fe8a7ae9d: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question eb45df37-2241-48ad-9cb7-431a3a5248ce for session a4de6764-f5bc-4931-81b9-129fe8a7ae9d","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a4de6764-f5bc-4931-81b9-129fe8a7ae9d: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 6c285a2c-85ee-48ca-a527-cf29801c50dc for session a4de6764-f5bc-4931-81b9-129fe8a7ae9d","service":"iq-test-backend"}
+{"level":"info","message":"Created new session: cf8e22e7-6881-4b99-b095-6ef050f19473","service":"iq-test-backend"}
+{"level":"info","message":"Served question 202240b4-b459-4cb5-882f-db4089682cb2 for session cf8e22e7-6881-4b99-b095-6ef050f19473","service":"iq-test-backend"}
+{"level":"info","message":"Served question a72c5bfe-621c-4fbe-bf2e-7412436a9a06 for session cf8e22e7-6881-4b99-b095-6ef050f19473","service":"iq-test-backend"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"iq-test-backend"}
+{"level":"info","message":"Created new session: cc4e0c2f-8e9c-4316-b472-4c06a0d4f6c1","service":"iq-test-backend"}
+{"level":"info","message":"Created new session: 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Served question fe4fd6a1-5ca0-443b-809e-916c8c46132a for session cc4e0c2f-8e9c-4316-b472-4c06a0d4f6c1","service":"iq-test-backend"}
+{"level":"info","message":"Served question 202240b4-b459-4cb5-882f-db4089682cb2 for session cc4e0c2f-8e9c-4316-b472-4c06a0d4f6c1","service":"iq-test-backend"}
+{"level":"info","message":"Served question fe4fd6a1-5ca0-443b-809e-916c8c46132a for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 202240b4-b459-4cb5-882f-db4089682cb2 for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question f8cfd803-afd1-40c1-b33b-f9b605ba9b93 for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 3b2b47df-6385-4c12-b37c-6772cb6bf7fb for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 6c285a2c-85ee-48ca-a527-cf29801c50dc for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question a64e32f8-26ed-463d-ac17-cc85d2a54c99 for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question e020f3b4-0bc4-4f79-8464-3321cc8bd679 for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 69eeeb18-c90a-4d1b-a35f-a5c913f207ae for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question a72c5bfe-621c-4fbe-bf2e-7412436a9a06 for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question eb45df37-2241-48ad-9cb7-431a3a5248ce for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 9f386370-fa5f-440b-a5be-c82ea287272e for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 61b5aa4c-61f9-432b-be8d-b6ffdd013fce for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 80ad2800-65ff-44b9-b429-97e8604a2e13 for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 52f5be88-da37-4ffd-b825-75deedbb3367 for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: incorrect","service":"iq-test-backend"}
+{"level":"info","message":"Served question 3c230db1-1190-40d2-b22d-aa2cf4532c4c for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 7ada50e5-d41f-43b5-9660-f46c1bffe9a5 for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question c93aa633-8d01-40af-9d4a-229c125f71cc for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 6610938b-1e89-4847-98c1-e7c4167815b0 for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 49e4ea4c-be12-4237-b516-a092926edf33 for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 531b5a6d-a582-49a3-83bf-19caf853fe36 for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936: correct","service":"iq-test-backend"}
+{"level":"info","message":"Session 2b17a35a-4b16-488e-8d6c-8667ce6e2936 has 20 responses","service":"iq-test-backend"}
+{"level":"info","message":"Session responses: [{\"questionId\":\"fe4fd6a1-5ca0-443b-809e-916c8c46132a\",\"questionText\":\"قم بالعملية الحسابية في رأسك: 15 + 25 - 10\",\"domain\":\"Gwm\",\"userAnswer\":\"30\",\"correctAnswer\":\"30\",\"isCorrect\":true,\"explanation\":\"40 - 10 = 30\",\"difficulty\":0.35},{\"questionId\":\"202240b4-b459-4cb5-882f-db4089682cb2\",\"questionText\":\"إذا قمنا بتدوير حرف 'M' 180 درجة، ماذا يصبح؟\",\"domain\":\"Gv\",\"userAnswer\":\"W\",\"correctAnswer\":\"W\",\"isCorrect\":true,\"explanation\":\"تدوير M يعطي W\",\"difficulty\":0.36}]","service":"iq-test-backend"}
+{"level":"info","message":"Results retrieved for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Session 2b17a35a-4b16-488e-8d6c-8667ce6e2936 has 20 responses","service":"iq-test-backend"}
+{"level":"info","message":"Session responses: [{\"questionId\":\"fe4fd6a1-5ca0-443b-809e-916c8c46132a\",\"questionText\":\"قم بالعملية الحسابية في رأسك: 15 + 25 - 10\",\"domain\":\"Gwm\",\"userAnswer\":\"30\",\"correctAnswer\":\"30\",\"isCorrect\":true,\"explanation\":\"40 - 10 = 30\",\"difficulty\":0.35},{\"questionId\":\"202240b4-b459-4cb5-882f-db4089682cb2\",\"questionText\":\"إذا قمنا بتدوير حرف 'M' 180 درجة، ماذا يصبح؟\",\"domain\":\"Gv\",\"userAnswer\":\"W\",\"correctAnswer\":\"W\",\"isCorrect\":true,\"explanation\":\"تدوير M يعطي W\",\"difficulty\":0.36}]","service":"iq-test-backend"}
+{"level":"info","message":"Results retrieved for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Session 2b17a35a-4b16-488e-8d6c-8667ce6e2936 has 20 responses","service":"iq-test-backend"}
+{"level":"info","message":"Session responses: [{\"questionId\":\"fe4fd6a1-5ca0-443b-809e-916c8c46132a\",\"questionText\":\"قم بالعملية الحسابية في رأسك: 15 + 25 - 10\",\"domain\":\"Gwm\",\"userAnswer\":\"30\",\"correctAnswer\":\"30\",\"isCorrect\":true,\"explanation\":\"40 - 10 = 30\",\"difficulty\":0.35},{\"questionId\":\"202240b4-b459-4cb5-882f-db4089682cb2\",\"questionText\":\"إذا قمنا بتدوير حرف 'M' 180 درجة، ماذا يصبح؟\",\"domain\":\"Gv\",\"userAnswer\":\"W\",\"correctAnswer\":\"W\",\"isCorrect\":true,\"explanation\":\"تدوير M يعطي W\",\"difficulty\":0.36}]","service":"iq-test-backend"}
+{"level":"info","message":"Results retrieved for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Session 2b17a35a-4b16-488e-8d6c-8667ce6e2936 has 20 responses","service":"iq-test-backend"}
+{"level":"info","message":"Session responses: [{\"questionId\":\"fe4fd6a1-5ca0-443b-809e-916c8c46132a\",\"questionText\":\"قم بالعملية الحسابية في رأسك: 15 + 25 - 10\",\"domain\":\"Gwm\",\"userAnswer\":\"30\",\"correctAnswer\":\"30\",\"isCorrect\":true,\"explanation\":\"40 - 10 = 30\",\"difficulty\":0.35},{\"questionId\":\"202240b4-b459-4cb5-882f-db4089682cb2\",\"questionText\":\"إذا قمنا بتدوير حرف 'M' 180 درجة، ماذا يصبح؟\",\"domain\":\"Gv\",\"userAnswer\":\"W\",\"correctAnswer\":\"W\",\"isCorrect\":true,\"explanation\":\"تدوير M يعطي W\",\"difficulty\":0.36}]","service":"iq-test-backend"}
+{"level":"info","message":"Results retrieved for session 2b17a35a-4b16-488e-8d6c-8667ce6e2936","service":"iq-test-backend"}
+{"level":"info","message":"Created new session: 7f3a0015-2483-45b1-b632-e8acd711c178","service":"iq-test-backend"}
+{"level":"info","message":"Created new session: a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Served question 202240b4-b459-4cb5-882f-db4089682cb2 for session 7f3a0015-2483-45b1-b632-e8acd711c178","service":"iq-test-backend"}
+{"level":"info","message":"Served question 3b2b47df-6385-4c12-b37c-6772cb6bf7fb for session 7f3a0015-2483-45b1-b632-e8acd711c178","service":"iq-test-backend"}
+{"level":"info","message":"Served question fe4fd6a1-5ca0-443b-809e-916c8c46132a for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 3b2b47df-6385-4c12-b37c-6772cb6bf7fb for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question a72c5bfe-621c-4fbe-bf2e-7412436a9a06 for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 202240b4-b459-4cb5-882f-db4089682cb2 for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question eb45df37-2241-48ad-9cb7-431a3a5248ce for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question e020f3b4-0bc4-4f79-8464-3321cc8bd679 for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 69eeeb18-c90a-4d1b-a35f-a5c913f207ae for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 6c285a2c-85ee-48ca-a527-cf29801c50dc for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question f8cfd803-afd1-40c1-b33b-f9b605ba9b93 for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 7ada50e5-d41f-43b5-9660-f46c1bffe9a5 for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question a64e32f8-26ed-463d-ac17-cc85d2a54c99 for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 61b5aa4c-61f9-432b-be8d-b6ffdd013fce for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question c93aa633-8d01-40af-9d4a-229c125f71cc for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 9f386370-fa5f-440b-a5be-c82ea287272e for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 80ad2800-65ff-44b9-b429-97e8604a2e13 for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 49e4ea4c-be12-4237-b516-a092926edf33 for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 7fecf465-63ad-4dae-aa55-62ccba020151 for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 52f5be88-da37-4ffd-b825-75deedbb3367 for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: incorrect","service":"iq-test-backend"}
+{"level":"info","message":"Served question 4beefef9-fbe5-468f-8b50-ec46bd831e39 for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 3c230db1-1190-40d2-b22d-aa2cf4532c4c for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session a21354b2-bd24-438d-aadd-b45232ab4785: correct","service":"iq-test-backend"}
+{"level":"info","message":"Session a21354b2-bd24-438d-aadd-b45232ab4785 has 20 responses","service":"iq-test-backend"}
+{"level":"info","message":"Session responses: [{\"questionId\":\"fe4fd6a1-5ca0-443b-809e-916c8c46132a\",\"questionText\":\"قم بالعملية الحسابية في رأسك: 15 + 25 - 10\",\"domain\":\"Gwm\",\"userAnswer\":\"30\",\"correctAnswer\":\"30\",\"isCorrect\":true,\"explanation\":\"40 - 10 = 30\",\"difficulty\":0.35},{\"questionId\":\"3b2b47df-6385-4c12-b37c-6772cb6bf7fb\",\"questionText\":\"احفظ الأرقام التالية: 5، 9، 2، 7. ما هو الرقم الثاني؟\",\"domain\":\"Gwm\",\"userAnswer\":\"9\",\"correctAnswer\":\"9\",\"isCorrect\":true,\"explanation\":\"الرقم الثاني في القائمة هو 9\",\"difficulty\":0.36}]","service":"iq-test-backend"}
+{"level":"info","message":"Results retrieved for session a21354b2-bd24-438d-aadd-b45232ab4785","service":"iq-test-backend"}
+{"level":"info","message":"Created new session: a007f381-886c-4143-b40c-5fd6abcfd857","service":"iq-test-backend"}
+{"level":"info","message":"Created new session: e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Served question a72c5bfe-621c-4fbe-bf2e-7412436a9a06 for session a007f381-886c-4143-b40c-5fd6abcfd857","service":"iq-test-backend"}
+{"level":"info","message":"Served question fe4fd6a1-5ca0-443b-809e-916c8c46132a for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Served question eb45df37-2241-48ad-9cb7-431a3a5248ce for session a007f381-886c-4143-b40c-5fd6abcfd857","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 202240b4-b459-4cb5-882f-db4089682cb2 for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question a72c5bfe-621c-4fbe-bf2e-7412436a9a06 for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 3b2b47df-6385-4c12-b37c-6772cb6bf7fb for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 6c285a2c-85ee-48ca-a527-cf29801c50dc for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 7ada50e5-d41f-43b5-9660-f46c1bffe9a5 for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question a64e32f8-26ed-463d-ac17-cc85d2a54c99 for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 69eeeb18-c90a-4d1b-a35f-a5c913f207ae for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question fe4fd6a1-5ca0-443b-809e-916c8c46132a for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 61b5aa4c-61f9-432b-be8d-b6ffdd013fce for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question e020f3b4-0bc4-4f79-8464-3321cc8bd679 for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question f8cfd803-afd1-40c1-b33b-f9b605ba9b93 for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question c93aa633-8d01-40af-9d4a-229c125f71cc for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 9f386370-fa5f-440b-a5be-c82ea287272e for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 49e4ea4c-be12-4237-b516-a092926edf33 for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 3c230db1-1190-40d2-b22d-aa2cf4532c4c for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 52f5be88-da37-4ffd-b825-75deedbb3367 for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 80ad2800-65ff-44b9-b429-97e8604a2e13 for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 6610938b-1e89-4847-98c1-e7c4167815b0 for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 7fecf465-63ad-4dae-aa55-62ccba020151 for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session e8900e84-aeeb-4cfa-b137-2701b39a6884: correct","service":"iq-test-backend"}
+{"level":"info","message":"Session e8900e84-aeeb-4cfa-b137-2701b39a6884 has 20 responses","service":"iq-test-backend"}
+{"level":"info","message":"Session responses: [{\"questionId\":\"eb45df37-2241-48ad-9cb7-431a3a5248ce\",\"questionText\":\"إذا استغرق 5 عمال 5 أيام لبناء 5 جدران، كم يوماً يستغرق 10 عمال لبناء 10 جدران؟\",\"domain\":\"Gf\",\"userAnswer\":\"5 أيام\",\"correctAnswer\":\"5 أيام\",\"isCorrect\":true,\"explanation\":\"معدل العمل ثابت: عامل واحد يبني جدار في 5 أيام\",\"difficulty\":0.65},{\"questionId\":\"202240b4-b459-4cb5-882f-db4089682cb2\",\"questionText\":\"إذا قمنا بتدوير حرف 'M' 180 درجة، ماذا يصبح؟\",\"domain\":\"Gv\",\"userAnswer\":\"W\",\"correctAnswer\":\"W\",\"isCorrect\":true,\"explanation\":\"تدوير M يعطي W\",\"difficulty\":0.36}]","service":"iq-test-backend"}
+{"level":"info","message":"Results retrieved for session e8900e84-aeeb-4cfa-b137-2701b39a6884","service":"iq-test-backend"}
+{"level":"info","message":"Created new session: 172c3eec-c16d-4d77-8ff1-85918b65a50b","service":"iq-test-backend"}
+{"level":"info","message":"Created new session: 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Served question a72c5bfe-621c-4fbe-bf2e-7412436a9a06 for session 172c3eec-c16d-4d77-8ff1-85918b65a50b","service":"iq-test-backend"}
+{"level":"info","message":"Served question 3b2b47df-6385-4c12-b37c-6772cb6bf7fb for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Served question 202240b4-b459-4cb5-882f-db4089682cb2 for session 172c3eec-c16d-4d77-8ff1-85918b65a50b","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question fe4fd6a1-5ca0-443b-809e-916c8c46132a for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 6c285a2c-85ee-48ca-a527-cf29801c50dc for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question e020f3b4-0bc4-4f79-8464-3321cc8bd679 for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question eb45df37-2241-48ad-9cb7-431a3a5248ce for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 7ada50e5-d41f-43b5-9660-f46c1bffe9a5 for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question a64e32f8-26ed-463d-ac17-cc85d2a54c99 for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question f8cfd803-afd1-40c1-b33b-f9b605ba9b93 for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 52f5be88-da37-4ffd-b825-75deedbb3367 for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 3b2b47df-6385-4c12-b37c-6772cb6bf7fb for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 9f386370-fa5f-440b-a5be-c82ea287272e for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 80ad2800-65ff-44b9-b429-97e8604a2e13 for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question c93aa633-8d01-40af-9d4a-229c125f71cc for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question a72c5bfe-621c-4fbe-bf2e-7412436a9a06 for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question f19a91a5-b97a-4a71-8c83-6f96b952500e for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 69eeeb18-c90a-4d1b-a35f-a5c913f207ae for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 7fecf465-63ad-4dae-aa55-62ccba020151 for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 49e4ea4c-be12-4237-b516-a092926edf33 for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 4beefef9-fbe5-468f-8b50-ec46bd831e39 for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Served question 61b5aa4c-61f9-432b-be8d-b6ffdd013fce for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
+{"level":"info","message":"Answer submitted for session 396c2dd3-21c8-4064-827c-aa70b56ca9de: correct","service":"iq-test-backend"}
+{"level":"info","message":"Session 396c2dd3-21c8-4064-827c-aa70b56ca9de has 20 responses","service":"iq-test-backend"}
+{"level":"info","message":"Session responses: [{\"questionId\":\"202240b4-b459-4cb5-882f-db4089682cb2\",\"questionText\":\"إذا قمنا بتدوير حرف 'M' 180 درجة، ماذا يصبح؟\",\"domain\":\"Gv\",\"userAnswer\":\"W\",\"correctAnswer\":\"W\",\"isCorrect\":true,\"explanation\":\"تدوير M يعطي W\",\"difficulty\":0.36},{\"questionId\":\"fe4fd6a1-5ca0-443b-809e-916c8c46132a\",\"questionText\":\"قم بالعملية الحسابية في رأسك: 15 + 25 - 10\",\"domain\":\"Gwm\",\"userAnswer\":\"30\",\"correctAnswer\":\"30\",\"isCorrect\":true,\"explanation\":\"40 - 10 = 30\",\"difficulty\":0.35}]","service":"iq-test-backend"}
+{"level":"info","message":"Results retrieved for session 396c2dd3-21c8-4064-827c-aa70b56ca9de","service":"iq-test-backend"}
