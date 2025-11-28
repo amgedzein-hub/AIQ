@@ -41,6 +41,19 @@ export class AdaptiveScoringEngine implements ScoringEngine {
       return null;
     }
 
+    // For the first question, pick randomly from suitable difficulty range
+    // This ensures every test starts differently
+    if (usedQuestionIds.length === 0) {
+      const suitableQuestions = availableQuestions.filter(
+        (q) => Math.abs(q.difficulty - currentTheta) <= 1.0
+      );
+
+      if (suitableQuestions.length > 0) {
+        const randomIndex = Math.floor(Math.random() * suitableQuestions.length);
+        return suitableQuestions[randomIndex];
+      }
+    }
+
     // Calculate information for all available questions
     const questionsWithInfo = availableQuestions.map((question) => ({
       question,
@@ -54,12 +67,8 @@ export class AdaptiveScoringEngine implements ScoringEngine {
     questionsWithInfo.sort((a, b) => b.information - a.information);
 
     // Select from top questions to add variety
-    // For the first question (no used questions), pick from a larger pool (top 20)
-    // For subsequent questions, pick from top 10 (increased from 5)
-    const isFirstQuestion = usedQuestionIds.length === 0;
-    const poolSize = isFirstQuestion ? 20 : 10;
-
-    const topN = Math.min(poolSize, questionsWithInfo.length);
+    // Increased pool size to 15 for subsequent questions to ensure variety
+    const topN = Math.min(15, questionsWithInfo.length);
     const topQuestions = questionsWithInfo.slice(0, topN);
 
     // Randomly select one from the top questions
